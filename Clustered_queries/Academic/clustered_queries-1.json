@@ -1,0 +1,2072 @@
+{
+    "0": [
+        {
+            "query": "Summarize the discussion on XML tools and meeting data quality",
+            "answer": "The team had started moving to XML as their general format to standardize their data. Though, there is still concern about the limitations of XML. The participants noted that sometimes the mic of one subject catches sound from another. They also discussed implementing tools to help participants know when the quality of their audio is bad.",
+            "meeting": "Bmr025",
+            "relevant_text_span": "[['262', '395']]"
+        },
+        {
+            "query": "Summarize the discussion about the current XML format to link up different components in data",
+            "answer": "C developed an XML format that links together utterances based on time tags, essentially creating a lattice. The XML format would be divided into many sections, each with its own ID and timeline tag. The XML format could be modified to deal with smaller linguistic units since that would only entail changing the timestamps. Despite being easy to use, the format was not efficient for smaller linguistic units, like phones. It would work for word units, at best.",
+            "meeting": "Bdb001",
+            "relevant_text_span": "[['19', '89']]"
+        },
+        {
+            "query": "What did F think about the current XML format to link up different components in data?",
+            "answer": "F was concerned about how the time labels would adjust to smaller phonetic units. F inquired if the time boundaries could be changed by propagating new information throughout the XML. F thought that they could configure different XML files to deal with different units, but it would lead to large file sizes.",
+            "meeting": "Bdb001",
+            "relevant_text_span": "[['51', '87']]"
+        },
+        {
+            "query": "What did A think about the current XML format to link up different components in data?",
+            "answer": "A had seen an example of this kind of XML format before. A thought that the time boundaries were nicely handled but believed that smaller linguistic units would drain too much memory. It was essentially like a lattice, in his opinion. Though, A did not seem too concerned with dealing with smaller linguistic units since the problem would not be encountered frequently.",
+            "meeting": "Bdb001",
+            "relevant_text_span": "[['56', '77']]"
+        }
+    ],
+    "1": [
+        {
+            "query": "Summarize the discussion about electronics",
+            "answer": "The team was thinking about the best way to incorporate the recording infrastructure in the room. They considered putting tapes in the lip of the table and LEDs to indicate the channel was live. The team also discussed power issues",
+            "meeting": "Bmr003",
+            "relevant_text_span": "[['1343', '1471']]"
+        },
+        {
+            "query": "Summarize this segmen",
+            "answer": "An alternative representation of the Bayes-net, it depicts context features as classes, and dependencies as relations between them. The current outputs show the desirability of a site, as well as its EVA mode. The fact that this model allows for instantiations of classes fits the research purposes much better than the extended belief-net.",
+            "meeting": "Bed017",
+            "relevant_text_span": "[['59', '92']]"
+        },
+        {
+            "query": "Summarize the discussion about the results from the experiments",
+            "answer": "Last run of experiments showed that adding more languages was still severely harming model performance. They noted that normalization of any kind has a good effect on the model, whereas MSG does nothing.",
+            "meeting": "Bro005",
+            "relevant_text_span": "[['0', '310']]"
+        },
+        {
+            "query": "Summarize what was said on intentionality",
+            "answer": "There was a demonstration of the structure and the function of a toy version of the belief-net for the intentionality task. The features nodes include things like prosody, discourse, verb choice, \"landmark-iness\" of a building, time of day and whether the admission fee was discussed.",
+            "meeting": "Bed003",
+            "relevant_text_span": "[['54', '76']]"
+        }
+    ],
+    "2": [
+        {
+            "query": "What\u2019s the thesis about?",
+            "answer": "The thesis proposal presents the idea of \"construal\" and makes claims as to how inferences are drawn in a probabilistic relational model by using information from the ontology, situation, user and discourse models. It was advised that more emphasis should be put on the role of construal in the understanding of metaphor and metonymy.",
+            "meeting": "Bed016",
+            "relevant_text_span": "[['77', '112']]"
+        },
+        {
+            "query": "What was the professor's take on the 12 second mean?",
+            "answer": "The professor suggested that the model essentially improved performance after the first utterance as it had more data. There was a higher error probability for the first utterance. This issue could potentially be resolved using a second-pass system, in which the initial utterance was processed differently.",
+            "meeting": "Bro023",
+            "relevant_text_span": "[['99', '130']]"
+        },
+        {
+            "query": "What did Professor C say about the possible hypothesis?",
+            "answer": "Professor C said the basic hypothesis and starting point is if you examine the energy when two people are speaking at the same time , usually {there 'll be more energy than when one is. Coming up with a measure which will match this intuition is the next step. These energy features should be fed into a discriminative system. It is important to pick a normalization that matches the distribution for that feature.",
+            "meeting": "Bmr009",
+            "relevant_text_span": "[['160', '230']]"
+        },
+        {
+            "query": "What were the professor's concluding comments?",
+            "answer": "The professor noted that the most important improvements over the years have been due to finding bugs. He also informed the team of some IBM processors that were available to them at the University of Washington. He finally congratulated them on their efforts.",
+            "meeting": "Bro007",
+            "relevant_text_span": "[['335', '350']]"
+        },
+        {
+            "query": "What was said in future work?",
+            "answer": "An idea for future work was suggested during the visit of the german project manager: the possibility to use the same system for language generation. Setting up certain inputs in the Bayes-net would imply certain intentions, which would trigger dialogues. Having a system able to ask questions could contribute significantly to training the belief-net. The possibility of incorporating language generation into the system will have to be discussed further.",
+            "meeting": "Bed013",
+            "relevant_text_span": "[['34', '77']]"
+        }
+    ],
+    "3": [
+        {
+            "query": "What was said on transcripts?",
+            "answer": "For the DARPA meeting in July, the group proposed that they should have the question answering mock-up and transcriber interface ready for then, and also have data available.",
+            "meeting": "Bmr023",
+            "relevant_text_span": "[['32', '47']]"
+        },
+        {
+            "query": "What was needed for the transcripts?",
+            "answer": "Efforts by speaker fe008 are in progress to ensure that transcripts are clean (i.e. spell checked), channelized, and conform to set conventions regarding the coding of numbers, acronyms, and explicit comments (e.g. door slams, coughs, and laughter). Subsequent efforts by speaker fe008 will be to tighten up boundaries on the time bins. Inter-annotator agreement was reported to be very good. Speaker mn014's multi-channel speech/non-speech segmenter is in use.",
+            "meeting": "Bmr014",
+            "relevant_text_span": "[['201', '275']]"
+        },
+        {
+            "query": "What was agreed upon on sample transcripts?",
+            "answer": "To save time, speaker mn005 will only mark the sample of transcribed data for regions of overlapping speech, as opposed to marking all acoustic events. The digits extraction task will be delegated to whomever is working on acoustics for the Meeting Recorder project.",
+            "meeting": "Bmr005",
+            "relevant_text_span": "[['459', '530']]"
+        }
+    ],
+    "4": [
+        {
+            "query": "What did PhD F think about generating queries?",
+            "answer": "PhD F thought that it would be interesting to generate queries from the summaries, as that would open up a new area of research. PhD F realized that this may not be feasible, however.",
+            "meeting": "Buw001",
+            "relevant_text_span": "[['741', '747']]"
+        },
+        {
+            "query": "What did PhD B think about automatically generating queries?",
+            "answer": "PhD B thought generating queries went beyond the score of the project and that Landay was more equipped to handle a project like that. Though, PhD B recognized the flaw with people generating queries from the summaries",
+            "meeting": "Buw001",
+            "relevant_text_span": "[['741', '799']]"
+        }
+    ],
+    "5": [
+        {
+            "query": "Summarize the discussion on latency in the system",
+            "answer": "PhD D informed the team that there was additional latency in the system with spectral subtraction. The professor wanted the team to be cognizant of the latency. The team suggested a spectral whitening approach or using a probability focused approach to solve the problem.",
+            "meeting": "Bro023",
+            "relevant_text_span": "[['654', '832']]"
+        },
+        {
+            "query": "Why did the professor not like latency?",
+            "answer": "The professor wanted to make sure that the team does not end up in a bind. If they later had to cut latency, it would create a problem. This was his preferred conservative approach.",
+            "meeting": "Bro023",
+            "relevant_text_span": "[['689', '700']]"
+        },
+        {
+            "query": "How long was the latency?",
+            "answer": "The latency of the recursion was fifty milliseconds. The recursion added that much to the overall latency of the system. Though, PhD B suggested doing tasks in parallel to reduce total latency.",
+            "meeting": "Bro023",
+            "relevant_text_span": "[['660', '713']]"
+        }
+    ],
+    "6": [
+        {
+            "query": "What did Grad D and Grad C discuss about who was acting as the computer and wizard?",
+            "answer": "Grad C was concerned that the same person acting as the wizard and computer system might not be the best idea. Grad D had some way of making the wizard and computer seem distinct even though both were voiced by the same person and told Grad C that the recording would clarify things.",
+            "meeting": "Bed004",
+            "relevant_text_span": "[['44', '51']]"
+        },
+        {
+            "query": "What did Grad E contribute to the discussion on storage disks?",
+            "answer": "Grad E volunteered his 18 Gigabyte drive to the group. The drive had 12 gigabytes of memory and he was not using it for anything.",
+            "meeting": "Bmr026",
+            "relevant_text_span": "[['248', '260']]"
+        },
+        {
+            "query": "What were Grad B\u2019s updates on meeting disk storage?",
+            "answer": "Grad B said that archiving of the data by creating a clone had been done, though it took eleven hours. However, Grad B commented that accessing the data would be much faster. This archiving had freed ten gigabytes of free space. Additionally, two copies would be made: one offisite, another onsite.",
+            "meeting": "Bmr006",
+            "relevant_text_span": "[['370', '412']]"
+        }
+    ],
+    "7": [
+        {
+            "query": "Summarize what was said on SmartKom architecture",
+            "answer": "It was decided that SmartKom's action plans should be represented in XML as a state transition network. It was proposed that the term 'dialogue planner' should replace 'dialogue manager'. Prolog will be phased out completely and replaced by Java code. The dialogue manager must be capable of changing states, i.e. go from being event driven to answering a question from a planning module.",
+            "meeting": "Bed009",
+            "relevant_text_span": "[['112', '183']]"
+        },
+        {
+            "query": "What were the modules for the SmartKom. ",
+            "answer": "SmartKom should feature a well defined core interface, with domain-specific information kept external. A syntactic analysis component that performs chunk parsing will be added to the system.",
+            "meeting": "Bed009",
+            "relevant_text_span": "[['158', '190']]"
+        },
+        {
+            "query": "What was the importance of SmartKom?",
+            "answer": "SmartKom, although it does not code for intentions as specified in this task, provides a model of the discourse, which can be useful for the detection of features through querying and anaphora resolution. ",
+            "meeting": "Bed003",
+            "relevant_text_span": "[['782', '796']]"
+        }
+    ],
+    "8": [
+        {
+            "query": "What were the options that were discussed on the location of the recording equipment?",
+            "answer": "One proposed solution was to set up another room in the linguistics department. This needed a dedicated partner and safety of the equipment for it to work. Professor D talked about making the equipment portable allowing it to be transported from meeting to meeting.",
+            "meeting": "Bmr006",
+            "relevant_text_span": "[['157', '162']]"
+        },
+        {
+            "query": "Summarize the discussion about setting up the recording equipment",
+            "answer": "One of the graduate students is working on building the PDA of the future. The idea is to be able to record meetings for personal use and then query them for pertinent information. The data collection will be anonymized to a large extent, but not so much that the meeting does not represent a real scenario. This meeting will be one of the recorded meetings.",
+            "meeting": "Bed002",
+            "relevant_text_span": "[['0', '90']]"
+        }
+    ],
+    "9": [
+        {
+            "query": "What was said about the talk and neurons?",
+            "answer": "As the talk at EML will also refer to a theoretical framework, it was suggested that along with presenting NTL and the piece on mirror neurons, it also alludes to relevant fMRI work. The neural side of the research could be of interest to various groups. The language analysis itself will be introduced in terms of image schemas. On the other hand, it was arranged for more feedback on the thesis proposal to be sent by email. The latest version of the construction formalism will also be needed to complete the presentation.",
+            "meeting": "Bed016",
+            "relevant_text_span": "[['190', '223']]"
+        },
+        {
+            "query": "What was said about the transcriber pool?",
+            "answer": "decision was also made to delegate transcribers with the task of labelling a subset of digits or Switchboard data for fine-grained acoustic-phonetic features. Speaker fe008 will run selected Meeting Recorder data through channelize and determine whether the resulting units are of a sufficient length.",
+            "meeting": "Bmr013",
+            "relevant_text_span": "[['35', '71']]"
+        },
+        {
+            "query": "What did the group say about acoustic-phonetic analyses?",
+            "answer": "The group also considered the prospect of performing fine-grained acoustic-phonetic analyses on a subset of Meeting Recorder digits or Switchboard data. Pre-segmentation manipulations that allow for the segmentation of channel-specific speech/non-speech portions of the signal and the distinction of foreground versus background speech were discussed.",
+            "meeting": "Bmr013",
+            "relevant_text_span": "[['208', '298']]"
+        }
+    ],
+    "10": [
+        {
+            "query": "What did the professor think about echoes and reverberation?",
+            "answer": "The professor thought it was possible to reduce the effects of reverberation by removing the low-energy segments. He thought a VAD-like approach would work. This would make it so that the model was more likely to keep an echo than throw out speech.",
+            "meeting": "Bro022",
+            "relevant_text_span": "[['73', '84']]"
+        },
+        {
+            "query": "Summarize the discussion about acoustic events",
+            "answer": "Grad A explained that he was trying to collect a set of acoustic events to help distinguish between various linguistic features. The team distinguished between acoustic features and acoustic events. Acoustic events were a feature of the acoustic signal that could be derived from the data.",
+            "meeting": "Bro016",
+            "relevant_text_span": "[['448', '499']]"
+        },
+        {
+            "query": "What did PhD F think about acoustic events?",
+            "answer": "PhD F explained the difference between acoustic features and acoustic events. Acoustic features are what linguists talk about whereas acoustic events are measurable properties of the acoustic signal, like its height.",
+            "meeting": "Bro016",
+            "relevant_text_span": "[['464', '483']]"
+        },
+        {
+            "query": "What did the professor think about acoustic events?",
+            "answer": "The professor recalled that the SPAM work had something similar to acoustic events, auditory events. He also informed the team that Professors Kollmeier and Professor Kleinschmidt will be visiting for six months, and they may know more about this topic.",
+            "meeting": "Bro016",
+            "relevant_text_span": "[['473', '495']]"
+        }
+    ],
+    "11": [
+        {
+            "query": "What did PhD D think about the paper?",
+            "answer": "PhD D had not read the paper, only the poster on histogram equalization. PhD D reported that the histogram equalization was similar to on-line normalization. There was a histogram for each frequency band.",
+            "meeting": "Bro028",
+            "relevant_text_span": "[['435', '462']]"
+        },
+        {
+            "query": "What did the PhD F think about Eurospeech?",
+            "answer": "PhD F explained that they were trying to do something with meeting recorder digits for Eurospeech. Some people on OGI were working on a paper due on the 13th of May.",
+            "meeting": "Bro012",
+            "relevant_text_span": "[['281', '309']]"
+        }
+    ],
+    "12": [
+        {
+            "query": "What was the status of transcription?",
+            "answer": "The final english SmartKom demo will be presented to the whole institute once the system is de-bugged and stabilised.",
+            "meeting": "Bmr023",
+            "relevant_text_span": "[['229', '323']]"
+        },
+        {
+            "query": "What\u2019s the current state of transcriptions?",
+            "answer": "Approximately 32-35 hours of meeting data have been recorded, roughly 30 hours of which comprise non-digits recordings. The transcribers have begun performing digit extraction (see abstract for Bmr013) and should be finished within a few days. Approximately 11 hours of speech have been transcribed.",
+            "meeting": "Bmr014",
+            "relevant_text_span": "[['201', '248']]"
+        },
+        {
+            "query": "What did Grad F think about intermediate categories?",
+            "answer": "Grad F informed the team that he was building a system that classified intermediate categories with multi-band techniques. Then, to reduce error for phoneme recognition, the intermediate categories could be added to improve performance. The method could be replicated for large vocabulary tasks like switchboard.",
+            "meeting": "Bro022",
+            "relevant_text_span": "[['50', '60']]"
+        },
+        {
+            "query": "What\u2019s the current status of recordings and transcriptions?",
+            "answer": "Approximately 12-13 hours of Meeting Recorder data have been collected, roughly 45 minutes of which have been transcribed. Additional meetings by other ICSI research groups will be recorded. A suggestion was made that multi-channel data also be collected in cooperation with local media broadcasters, and that such events might be recorded live from ICSI. ",
+            "meeting": "Bmr005",
+            "relevant_text_span": "[['733', '755']]"
+        },
+        {
+            "query": "What did Grad C think about the SPG schema?",
+            "answer": "Grad C thought an approach in which the model had to refer to parents seemed inefficient. The model would constantly have to go back. Grad C wanted to completely redo it, even if it meant throwing away what the team had developed thus far.",
+            "meeting": "Bed006",
+            "relevant_text_span": "[['810', '833']]"
+        }
+    ],
+    "13": [
+        {
+            "query": "What would future experiments entail?",
+            "answer": "Subsequent recognition experiments will look at large vocabulary speech from a far-field microphone (as performed in Switchboard evaluations). ",
+            "meeting": "Bmr019",
+            "relevant_text_span": "[['311', '325']]"
+        },
+        {
+            "query": "What did Grad F say about his proposal?",
+            "answer": "Grad F explained that he was focusing on writing his proposal for his qualification exams, which was on the 25th of July. He had to write a paper and pass it around before that date.",
+            "meeting": "Bro022",
+            "relevant_text_span": "[['24', '39']]"
+        },
+        {
+            "query": "What would happen after the demo?",
+            "answer": "After the demo, the focus of research can switch towards purely scientific goals, including issues on ontology, deep semantic constructions, execution engines etc. Moreover, a new system will be designed for the project and at least some parts of it should be built.",
+            "meeting": "Bed010",
+            "relevant_text_span": "[['133', '152']]"
+        },
+        {
+            "query": "What did Grad E say when discussing Go-there decision?",
+            "answer": "Grad E first started the topic about Go-there decision, and then proposed the question about how to represent discourse. Though Professor B insisted on using true-and-false values, Grad E challenged Professor B's opinion by taking examples about whether people really wanted to go some place or not when they asked how to get there.",
+            "meeting": "Bed008",
+            "relevant_text_span": "[['433', '533']]"
+        },
+        {
+            "query": "What did Grad F think about getting consent?",
+            "answer": "Grad F was responsible for bringing up the topic. Apparently, no one had replied to the emails allowing people to bleep things out so far. According to Grad F, as long as the email was sent out, the team was covered. Grad F thought this had been settled when the project started and did not need to be revisited.",
+            "meeting": "Bmr027",
+            "relevant_text_span": "[['29', '35'], ['213', '237']]"
+        }
+    ],
+    "14": [
+        {
+            "query": "What did the team discuss about the cheating experiment?",
+            "answer": "The team thought that doing a cheating experiment, where they try to identify the most important features, would be useful. Even if the results were not as great as they expected them to be, it could still be a valuable addition to their work. They thought that they could normalize the features using a sigmoid and try this for their work.",
+            "meeting": "Bro003",
+            "relevant_text_span": "[['957', '1005']]"
+        },
+        {
+            "query": "What did the team discuss about the most noisy cases?",
+            "answer": "The team thought that the most noisy cases were the distant microphone testing. That is when there were non-stationary noises in the background, like from a car, a babble or subway. These presented a unique challenge for the model that could potentially be best solved with a neural net.",
+            "meeting": "Bro027",
+            "relevant_text_span": "[['700', '746']]"
+        },
+        {
+            "query": "What did the team say on experiments?",
+            "answer": "Grad H has been experimenting with using the close - talking mike to decipher who is speaking . The first attempt was thresholding and filtering , which is very sensitive to the choice of filter width and threshold . It does allow for effective segmenting when someone 's talking and when they are not .",
+            "meeting": "Bmr007",
+            "relevant_text_span": "[['536', '732']]"
+        }
+    ],
+    "15": [
+        {
+            "query": "What did PhD C think about the signal to noise ratio?",
+            "answer": "PhD C was skeptical of why the signal was louder after processing. PhD C suggested that the system is not too dependent on the signal level, agreeing with the professor that improvement in the model was more likely dependent on the ratio.",
+            "meeting": "Bro022",
+            "relevant_text_span": "[['108', '128']]"
+        },
+        {
+            "query": "What did PhD E think about the noise?",
+            "answer": "PhD E speculated that the recording problem probably does not have to do with noise. The difference in result with the tandem and Aurora system was too big. He suggested they could learn more by adding more data from Meeting Recorder digits.",
+            "meeting": "Bro013",
+            "relevant_text_span": "[['61', '96']]"
+        },
+        {
+            "query": "What did PhD B think about patterns of noise in the recordings?",
+            "answer": "PhD B thought that a smaller capacitor might help with reverberation. PhD B was also interested in the cutoff frequency to ensure that reverberation does not interfere with speech too much. PhD B thought it was around 20.",
+            "meeting": "Bro012",
+            "relevant_text_span": "[['7', '20']]"
+        },
+        {
+            "query": "How does the bayes-net deal with inputs?",
+            "answer": "The presented Bayes-net takes inputs from the Situation, User, Discourse and Ontology models. There are several values (elements) defined in each of these models. The inputs are fed into the belief-net, which, in turn, outputs the posterior probabilities for the values of all the decision nodes. These comprise \"Go-there\", \"EVA\", \"Info-on\", \"Location\", \"Timing\", etc. At this stage, all the decision nodes are evenly weighted: regardless of the context, each output is trusted equally. Input and output node structure was presented in XML, as this is the format that will be used for the system. A large number of the value probabilities have already been set.",
+            "meeting": "Bed012",
+            "relevant_text_span": "[['274', '393']]"
+        },
+        {
+            "query": "What was suggested to incorporate the EVA into the Bayes-net?",
+            "answer": "Object representations will include an EVA vector. This can be incorporated in the database entry for a particular building or inherited from the ontology of the building type. As the project evolves, further enrichment of the ontology (actions, linguistic features) will be necessary.",
+            "meeting": "Bed005",
+            "relevant_text_span": "[['600', '680']]"
+        }
+    ],
+    "16": [
+        {
+            "query": "What did the team discuss about politics around collected data?",
+            "answer": "The team knew that the CMU folks had collected a lot of data, but they were not sure if it was publicly available. It seemed that there was politics involved. The team thought that they could let Mark see if CMU would let them use the data.",
+            "meeting": "Buw001",
+            "relevant_text_span": "[['1380', '1404']]"
+        },
+        {
+            "query": "What is the routine for data collection?",
+            "answer": "The data collection that will provide relevant dialogues is moving along, with thirty subjects already lined up. They will be given a reading task, which will include some german proper names, and a series of tasks from the tourist domain to choose from. In order to get directions, they will then communicate with a computer system and a human operator, using a sketchy map as an aid. A different set of data are already available from the SmartKom system and similar sources.",
+            "meeting": "Bed011",
+            "relevant_text_span": "[['31', '56']]"
+        },
+        {
+            "query": "What was the structure of the Bayes-net discussed.",
+            "answer": "The input layer deriving information from things like the user and situation models, feeds into a set of decision nodes, such as the Enter/View/Approach (EVA) endpoint. In any particular situation, most of the outputs will not be relevant to the given context. Therefore, they will either have to be pruned a posteriori, or only a subset of the possible decision nodes will be computed in each occasion.",
+            "meeting": "Bed012",
+            "relevant_text_span": "[['155', '220']]"
+        },
+        {
+            "query": "What was said about the bayes-net?",
+            "answer": "The Bayes-net is going to be the focus of the presentation. In order to complete a functioning prototype of the belief-net, it was decided to start expanding the Ontology and Discourse nodes by working with a simple construction, like \"where is X?\". A robust analysis of such a basic utterance will indicate what the limits of the information derived from the construction are, as well as ways to design the whole module and fit other constructions in. ",
+            "meeting": "Bed013",
+            "relevant_text_span": "[['672', '801']]"
+        },
+        {
+            "query": "What did the team say about interaction of data participants with their data?",
+            "answer": "The team wanted the data participants to minimize their contact with their data. They wanted them to sign a waiver first not to view the transcript by default only allowing them to view it.",
+            "meeting": "Bed005",
+            "relevant_text_span": "[['20', '39']]"
+        }
+    ],
+    "17": [
+        {
+            "query": "What changes did the group say were needed?",
+            "answer": "The script for extracting speaker ID information will require modifications to obtain a more accurate estimation of the amount of data recorded per speaker.",
+            "meeting": "Bmr019",
+            "relevant_text_span": "[['192', '206']]"
+        },
+        {
+            "query": "What did the Professor think about the use of English?",
+            "answer": "The professor thought that the model did not get hurt that much because of the removal of English. He also thought it would be worthwhile to train on one language and test on another.",
+            "meeting": "Bro004",
+            "relevant_text_span": "[['218', '242']]"
+        },
+        {
+            "query": "What did the team discuss about IBM computers?",
+            "answer": "The team was concerned about the availability of computational resources. The Professor informed them that they had received two 550 megahertz processors by IBM. Though, they were originally expecting eight 800 megahertz processors.",
+            "meeting": "Bro004",
+            "relevant_text_span": "[['685', '714']]"
+        },
+        {
+            "query": "What was said about the data collection participants?",
+            "answer": "There are already 30 subjects lined up and more are expected to be recruited off campus. It was agreed that making subjects select from categories of tasks, such as \"big place\", \"service\", etc. could provide a better range of data. The duration of each dialogue will probably be no more than 10 minutes.",
+            "meeting": "Bed011",
+            "relevant_text_span": "[['154', '274']]"
+        },
+        {
+            "query": "What was said about data collection?",
+            "answer": "As the data collection is about to begin, there are some minor changes to be done in the design of the experiment, the script and the permission forms. Subjects can be recruited either from within the university or through other social circles.",
+            "meeting": "Bed005",
+            "relevant_text_span": "[['6', '17']]"
+        }
+    ],
+    "18": [
+        {
+            "query": "What change has occurred to the segmenter?",
+            "answer": "Segmentation for the recogniser has been done by hand which the group consider \"cheating\", instead now they want to use Thilo's automatic segmenter.",
+            "meeting": "Bmr023",
+            "relevant_text_span": "[['101', '108']]"
+        },
+        {
+            "query": "What is the status of the segmenter",
+            "answer": "The classifier segmentation work is going well, but needs more data to improve results since non-native speaker data cannot be used.",
+            "meeting": "Bmr023",
+            "relevant_text_span": "[['101', '114']]"
+        },
+        {
+            "query": "What change has occurred to the segmenter?",
+            "answer": "To improve the performance of Thilo's automatic segmenter, this is going to be retrained and adapted to run with Thilo's posteriors and speaker background models.",
+            "meeting": "Bmr023",
+            "relevant_text_span": "[['133', '140']]"
+        }
+    ],
+    "19": [
+        {
+            "query": "Summarize the discussion on support vector machines to map MFCC to phonological features",
+            "answer": "Support vector machines were better at dealing with a lower amount of data, so they could do a reasonable job learning patterns in MFCC without too much work. They worked by finding an optimal separating plane. This was more efficient as the model picked only critical points as opposed to doing more computationally expensive k-means clustering.",
+            "meeting": "Bro018",
+            "relevant_text_span": "[['297', '324']]"
+        },
+        {
+            "query": "Summarize the discussion about controlling size of combinatorial input",
+            "answer": "The team was concerned that the combinatorial input that would result from the various linguistic and contextual schemas would be enormous for the Bayes net. The Professor suggested that it's best to narrow down the decision variables, perhaps by studying the trade-offs between different input factors. The team thought that perhaps they could keep the kinds of objects in the environment to a small subset and make rules governing actions around those objects.",
+            "meeting": "Bed004",
+            "relevant_text_span": "[['187', '256']]"
+        },
+        {
+            "query": "What did the team discuss about volume variation?",
+            "answer": "Speaker mn014  trained the system to identify speech from loud versus quiet speakers. Such pre-segmentation modifications allow the experimenter to specify the minimum length of speech and silence portions desired, and also facilitate the identification of pauses and utterance boundaries. ",
+            "meeting": "Bmr010",
+            "relevant_text_span": "[['96', '108']]"
+        }
+    ],
+    "20": [
+        {
+            "query": "Summarize the discussion on TORRENT schedule and intermediate categorization",
+            "answer": "The professor told the team that the TORRENT chip schedule kept getting pushed. Then, Grad F talked about his proposal, in which he was done with the section on intermediate categories. Including features from intermediate categories was a potential way of reducing error.",
+            "meeting": "Bro022",
+            "relevant_text_span": "[['2', '51']]"
+        },
+        {
+            "query": "What did the professor think about the neural net?",
+            "answer": "The professor was interested in knowing what impact the neural net had in the older models which did not have pure features. The professor believed it was worthwhile to improve the net, though he also expressed that nets were occasionally over used.",
+            "meeting": "Bro027",
+            "relevant_text_span": "[['726', '841']]"
+        }
+    ],
+    "21": [
+        {
+            "query": "Summarize the discussion about microphone issues",
+            "answer": "The professor pointed out that the lapel microphones were too close, so they were not good representative microphones. There was strong agreement that mics capture breath and other non-voice sounds since they were common.",
+            "meeting": "Bro019",
+            "relevant_text_span": "[['9', '18']]"
+        },
+        {
+            "query": "Summarize what was said about the microphone data",
+            "answer": "The group discussed recognition results generated for 20 minutes of close-talking microphone data. Recognition performance was very good, indicating promising results for forced alignment procedures and the ability to analyze other important signal information, e.g. prosody and overlapping speech. It was decided that close-talking data should be downsampled and fed to the SRI recognizer to compare recognition performance, and that data from the far-field microphones should be tested on the recognizer as soon as possible.",
+            "meeting": "Bmr012",
+            "relevant_text_span": "[['137', '319']]"
+        }
+    ],
+    "22": [
+        {
+            "query": "What were the difficulties that were encountered by the language generation?",
+            "answer": "As the translation of the german SmartKom into English moves on, the generation rules may prove difficult to tackle for someone without experience in functional programming, as they are written in LISP.",
+            "meeting": "Bed014",
+            "relevant_text_span": "[['75', '98']]"
+        }
+    ],
+    "23": [
+        {
+            "query": "Summarize the discussion about the disadvantages of ATLAS and other options",
+            "answer": "Since the team is familiar with Perl and a flat file format is easier, it was suggested that the cost of learning a new framework, like ATLAS, might be too high. It was suggested that ATLAS be used for the external file representation initially, and if it seems suitable, then it should be adopted in its entirety. P files were also discussed but the problem with them was that they could still get pretty big.",
+            "meeting": "Bdb001",
+            "relevant_text_span": "[['463', '594']]"
+        },
+        {
+            "query": "What did C think about the disadvantages of ATLAS and other options?",
+            "answer": "C thought that other options have a big learning curve, which should be taken into account, and that a flat format works well. A flat file format may not be fast, but everyone can handle it. C believed that quick and dirty solutions should be balanced with long-term infrastructural solutions. For instance, Perl can be paired with external representations of ATLAS files to create a working system. C also suggested that alternatives to P files might be interesting too, though the disadvantage would, once again, be the learning curve.",
+            "meeting": "Bdb001",
+            "relevant_text_span": "[['463', '474'], ['492', '498'], ['530', '545']]"
+        },
+        {
+            "query": "What did F think about the disadvantages of ATLAS and other options?",
+            "answer": "F wanted to ensure that prosodic features could be dealt with at the level of small linguistic units. F proposed that they be attached to the word or segment level with the option of extracting smaller units. This would allow the team to keep what they have without starting over.",
+            "meeting": "Bdb001",
+            "relevant_text_span": "[['484', '495']]"
+        }
+    ],
+    "24": [
+        {
+            "query": "Summarize the discussion about designing the new SPG schema based on a more flexible organization",
+            "answer": "The team wanted to figure out how roles would be connected to actions. The thought that their current XML schema forced the model to look up, requiring the whole body of the model. The new idea they came up with was to create a parallel intention oriented specification in addition to the pure schema, which would allow for a more flexible schema.",
+            "meeting": "Bed006",
+            "relevant_text_span": "[['787', '872']]"
+        },
+        {
+            "query": "What was discussed about contextualizing output?",
+            "answer": "Due to most outputs not being relevant to the given context, they will either have to be pruned a posteriori, or only a subset of the possible decision nodes will be computed in each occasion. The latter option could follow a binary search-tree approach and it could also be better in computational terms. In any case, on what basis the \"winner\" output is chosen is not clear.",
+            "meeting": "Bed012",
+            "relevant_text_span": "[['202', '223']]"
+        },
+        {
+            "query": "Summarize the discussion about Go-there decision.",
+            "answer": "Grad E proposed the idea that Go-there decision was also worth thinking about. Professor B suggested that the decision could stick to the discourse properties as a placeholder. With regard to the lack of ontologies, Professor B thought that it could use the same properties like exhibiting and selling. Grad E doubted the choice of binary EVA values, but Professor B insisted that it was still necessary to make this choice. Then the group members discussed the layout of belief-nets, for example, the connection between Go-there nodes and other ones such as endpoints. And Professor B reminded me that the belief-nets should not have loops.",
+            "meeting": "Bed008",
+            "relevant_text_span": "[['433', '533']]"
+        },
+        {
+            "query": "Summarize the discussion on project logistics",
+            "answer": "The team had pushed their code and was curious to know if the CVS system was working well. It was, at least from Belgium. Other team members needed to come back for the team to complete a few tasks.",
+            "meeting": "Bro026",
+            "relevant_text_span": "[['12', '57']]"
+        },
+        {
+            "query": "Summarize what was said about digits form",
+            "answer": "Digits forms will instruct speakers to read digits separately and not as connected numbers. A tentative decision was made to collect overlapping digits from speakers.",
+            "meeting": "Bmr016",
+            "relevant_text_span": "[['24', '96']]"
+        }
+    ],
+    "25": [
+        {
+            "query": "What did C think about setting up the recording equipment?",
+            "answer": "C began by asking some questions about the recording procedure and wanted to know what excising utterances from the transcript would look like. C asked several questions to that end but clarified that the source of inquiry was curiosity and nothing more. Additionally, C wanted A to explain to the meeting participants what the experiment was for.",
+            "meeting": "Bed002",
+            "relevant_text_span": "[['14', '22'], ['31', '62']]"
+        },
+        {
+            "query": "What did A think about setting up the recording equipment?",
+            "answer": "A noted that all participants will have to sign a consent form and read out digits and requested that microphones be kept away from the mouth to minimize breathing sounds. A also mentioned that people will be anonymized in the transcript. A explained that the goal was to eventually be able to query meetings for information.",
+            "meeting": "Bed002",
+            "relevant_text_span": "[['0', '69']]"
+        }
+    ],
+    "26": [
+        {
+            "query": "What were the problems for transcribers?",
+            "answer": "Transcribers occasionally misidentified speakers and omitted backchannels that were more hidden in the mixed signal. ",
+            "meeting": "Bmr019",
+            "relevant_text_span": "[['591', '602']]"
+        },
+        {
+            "query": "What were the instructions for the transcribers?",
+            "answer": "The transcribers should only code audible breaths within a grouping of words, and not outside regions of continuous speech. It was further determined that audible breaths are an important facet of recorded speech, and that removing them from the corpus would be contrary to the aims of the project. Speaker mn005 will prepare his results for detecting speaker overlap and present them in the next meeting.",
+            "meeting": "Bmr015",
+            "relevant_text_span": "[['489', '569']]"
+        },
+        {
+            "query": "What problems were encountered with transcriptions?",
+            "answer": "Transcribers are likely to overlook backchannels in densely populated sections of speaker overlap. Speaker mn014 reported that this is also problematic for the automatic detection of speech and non-speech, as backchannels that are very short and not loud enough will inevitably be overlooked. Speaker mn005 reported problems distinguishing between possible harmonics and other frequency peaks, and creating an algorithm for obtaining the instantaneous frequency. The encoding of all audible breaths is too time-consuming.",
+            "meeting": "Bmr015",
+            "relevant_text_span": "[['347', '423']]"
+        }
+    ],
+    "27": [
+        {
+            "query": "What was said about hiring?",
+            "answer": "Experiments for the collection of new data will start soon, since someone who will recruit subjects and help run the experiments has already been hired and the designing of the experiments has also progressed significantly.",
+            "meeting": "Bed003",
+            "relevant_text_span": "[['944', '960']]"
+        }
+    ],
+    "28": [
+        {
+            "query": "What did Grad G think about meeting data quality?",
+            "answer": "Grad G thought that it would be important to collect seat information in the key files to know where someone was sitting. This would be useful when people had to be bleeped out upon being heard in someone else's microphone. Grad G wanted to figure out what seating arrangements led to other participants' voices showing up in the microphone.",
+            "meeting": "Bmr025",
+            "relevant_text_span": "[['275', '303']]"
+        },
+        {
+            "query": "What did grad G think about collecting notes and related data with meetings?",
+            "answer": "Grad G thought that it would be helpful to let the participants conveniently bleep things out during the meeting. While synchronizing bleeps from during the meeting would require some infrastructure, a faster version could be set up. Though, G did think that the synchronization infrastructure would be a useful addition.",
+            "meeting": "Bmr025",
+            "relevant_text_span": "[['493', '570']]"
+        },
+        {
+            "query": "What did the Postdoc think about collecting notes with meetings?",
+            "answer": "The postdoc thought that it was a good idea to collect digital notes during the meeting in principle, but was concerned about the noise it would add to the mic. Postdoc thought that notes could even be taken after the meeting, by transcribers. All in all, he thought notes were useful for generating summaries.",
+            "meeting": "Bmr025",
+            "relevant_text_span": "[['455', '488']]"
+        }
+    ],
+    "29": [
+        {
+            "query": "What did the team think about distributing the corpus?",
+            "answer": "The team thought that their corpus was new and unique and that others would be interested in using it. They decided that they should keep DVD's, tapes, LDC's and other formats for sending the data to others. And they wanted to standardize their data formats.",
+            "meeting": "Bmr003",
+            "relevant_text_span": "[['176', '209']]"
+        },
+        {
+            "query": "What did Grad A explain about his vectors for his support vector machine?",
+            "answer": "Grad A explained that his vector contained binary values for whether a phonological feature exists or not. The goal was to come up with a mapping from a feature set to the existence of a particular phonological feature. He was not doing the mapping yet. The goal was simply detecting features at the time.",
+            "meeting": "Bro018",
+            "relevant_text_span": "[['384', '409']]"
+        },
+        {
+            "query": "What is the future of data alignments?",
+            "answer": "Future efforts will involve an attempt to get good forced alignments on digits data and generate a report for Eurospeech'01.",
+            "meeting": "Bmr018",
+            "relevant_text_span": "[['658', '679']]"
+        },
+        {
+            "query": "What did the team discuss about high mismatch?",
+            "answer": "The model that PhD B was working on performed better on high mismatch than on the well matched case. The professor thought that this reflected the team's priority, which had always focused more so on the high mismatched case. PhD H was concerned that their model did worse on medium and high mismatch. Adding noise hurt their model.",
+            "meeting": "Bro024",
+            "relevant_text_span": "[['887', '923']]"
+        },
+        {
+            "query": "What did the team discuss about evaluation?",
+            "answer": "The professor informed the team that the evaluation was on November 13. He encouraged the team to run experiments to learn which factors were the most important. The team was concerned about how the evaluation would be weighted, but they did not expect it to be significantly different. There was a chance that the evaluation would be pushed.",
+            "meeting": "Bro026",
+            "relevant_text_span": "[['368', '384']]"
+        }
+    ],
+    "30": [
+        {
+            "query": "Did the Professor agree with Grad G on cross-lingual data?",
+            "answer": "Grad G thought that the multi-lingual aspect of the model was not very important. The professor disagreed. He explained that the point of the project was to have something robust that could apply to many languages.",
+            "meeting": "Bro003",
+            "relevant_text_span": "[['137', '153']]"
+        },
+        {
+            "query": "What did the team think about the diversity of languages they needed?",
+            "answer": "The team arrived at the conclusion that they only needed sufficient breadth, not every possible language. As long as most languages used over cellular phones were covered, they were fine. The similarity between different languages would help them cover more ground with fewer languages.",
+            "meeting": "Bro003",
+            "relevant_text_span": "[['137', '197']]"
+        },
+        {
+            "query": "What did PhD A say about overlaps?",
+            "answer": "The recognizer performed well on time-aligned segments labelled as 'non-overlap' (i.e. one person talking), while segments labelled as 'overlap' (i.e. multiple speakers talking at the same time) yielded poor results",
+            "meeting": "Bmr019",
+            "relevant_text_span": "[['338', '347']]"
+        },
+        {
+            "query": "What did PhD F think about computational resources?",
+            "answer": "PhD F explained that he mistakenly had run his tasks on all the available compute instances. There was not enough computational resources going around. New computers were coming soon, but people would have to learn to share until then. It was important not to saturate computational resources. He also told the team how to properly queue tasks.",
+            "meeting": "Bro019",
+            "relevant_text_span": "[['46', '90']]"
+        }
+    ],
+    "31": [
+        {
+            "query": "Summarize the discussion on moving between data formats and the logistics of training models",
+            "answer": "The Spanish data was not in the desired HTK format and needed to be processed, which was turning into somewhat of a challenge. The team also realized that moving data was making their processes slower and they needed to rely on faster machines to complete their tasks. The team discussed various linguistic features and computational methods for linguistic analysis that they could incorporate.",
+            "meeting": "Bro003",
+            "relevant_text_span": "[['700', '1008']]"
+        },
+        {
+            "query": "Summarize discussion on issues with data storage",
+            "answer": "The team felt that the current file system they were using was running out of space, specifically back-up capacity. They needed to figure out a way to back-up the data they were collecting. They decided that the tape system that ICSI has is pretty reliable. But they needed to discuss the matter with the system administrator.",
+            "meeting": "Bmr024",
+            "relevant_text_span": "[['489', '730']]"
+        },
+        {
+            "query": "Summarize the discussion on storage disks and computer connections",
+            "answer": "The participants learned that the storage disks had eventually arrived. They were waiting on the disks to be installed. Grad E volunteered storage space on their own computer for the meantime. The meetings were around 1.5 gigs uncompressed and .5 gigs compressed. So, the group needed substantial space. The professor encouraged the team members to talk to Dave, the person responsible for managing the organization's storage systems, and figure things out.",
+            "meeting": "Bmr026",
+            "relevant_text_span": "[['194', '411']]"
+        }
+    ],
+    "32": [
+        {
+            "query": "What is the description of the domains in the mental spaces?",
+            "answer": "Given the domains currently used (tourist, child language learning), some features, like speaker attitude, are not of equal importance at this stage. On the other hand, it was decided for the inheritance between constructions to be left out for now, as the notation can be rendered more elegant later on.",
+            "meeting": "Bed015",
+            "relevant_text_span": "[['545', '590']]"
+        },
+        {
+            "query": "How would the middle layer work?",
+            "answer": "The values these nodes take feed into the middle layer nodes identified as hidden variables of the user/device interaction, such as whether the user is on tour, running an errand or in a hurry. These, in turn, help infer whether the user wants to see, enter or simply approach a building.",
+            "meeting": "Bed003",
+            "relevant_text_span": "[['141', '148']]"
+        }
+    ],
+    "33": [
+        {
+            "query": "Summarize the discussion about spectral subtraction",
+            "answer": "The team was doing spectral subtraction with both scaling and GGT bins. There were pros and cons to both approaches. The professor suggested a simple spectral subtraction followed by a KL transformation. He also suggested using JRASTRA's technique which relied on adding some noise to get rid of noise. The team also suggested VTS techniques.",
+            "meeting": "Bro019",
+            "relevant_text_span": "[['358', '448']]"
+        },
+        {
+            "query": "What did the professor think about the Wiener filter?",
+            "answer": "The professor could not see the advantage in combining the Wiener filter and the subspace. He later understood it would be a simple spectral subtraction, followed by a KL transform, followed by a Wiener filter.",
+            "meeting": "Bro019",
+            "relevant_text_span": "[['406', '416']]"
+        },
+        {
+            "query": "Summarize the discussion on the mean log magnitude spectral subtraction",
+            "answer": "The log magnitude spectral subtraction used twelve seconds from the past and future to calculate the mean. The short window did not have a big effect on the model performance, which was much desired. The silence, for the most part, had been cut out to make the model more effective. The professor added that the system was similar to caching utterances.",
+            "meeting": "Bro023",
+            "relevant_text_span": "[['51', '101']]"
+        },
+        {
+            "query": "What did PhD F think about spectral subtraction?",
+            "answer": "PhD F informed the group that the preliminary results from spectral subtraction were very bad. Mean normalization brought noise to around zero. Mean and variance normalization helped with speech but not with noise variance.",
+            "meeting": "Bro012",
+            "relevant_text_span": "[['354', '386']]"
+        }
+    ],
+    "34": [
+        {
+            "query": "What was said about the equipment?",
+            "answer": "The group discussed recording equipment issues, including the purchase of two additional headsets and the prospect of getting a new base station and a set of wireless microphones to replace those wired microphones currently in use.",
+            "meeting": "Bmr014",
+            "relevant_text_span": "[['74', '104']]"
+        },
+        {
+            "query": "What were the changes decided on the equipment?",
+            "answer": "The group decided to purchase one additional head-mounted crown microphone. A tentative decision was also made to acquire a hand-held wireless microphone to pass around to additional meeting participants should the installation of more close-talking microphones prove too difficult.",
+            "meeting": "Bmr012",
+            "relevant_text_span": "[['731', '753']]"
+        },
+        {
+            "query": "What did PhD A say about microphones?",
+            "answer": "Use of dissimilar microphones adds an extra, unwanted variable to individual speaker recordings. Similarly, differences in the type of recording equipment used and the manner in which microphones are worn by speakers causes problems for the transcription effort. ",
+            "meeting": "Bmr011",
+            "relevant_text_span": "[['48', '62']]"
+        },
+        {
+            "query": "What did the group say on portable equipment?",
+            "answer": "The group wanted to introduce portable equipment so as to get more meetings from different groups. However, this was challenged by the complexity of setting up the recording equipment.",
+            "meeting": "Bmr006",
+            "relevant_text_span": "[['162', '233']]"
+        }
+    ],
+    "35": [
+        {
+            "query": "What concerns did the team have about disk space?",
+            "answer": "The professor expressed that copying the information between drives clogged the network and slowed down their task. Though, the team was getting four more 36 GB drives. The professor also wanted to get more information on space available on computational servers.",
+            "meeting": "Bro003",
+            "relevant_text_span": "[['763', '787']]"
+        },
+        {
+            "query": "What did PhD I think about segmentation?",
+            "answer": "PhD I thought that the team should re-evaluate recognition without cheating on the segmentation. PhD I explained to the team that they had so far been using a simplified version of the scoring and brought up that Thilo wanted to use recognizer alignments to train his speech detector. He was not sure how much hand labeling would be needed to generate data for the detector.",
+            "meeting": "Bmr024",
+            "relevant_text_span": "[['225', '258']]"
+        },
+        {
+            "query": "What was said on getting fluent English speakers?",
+            "answer": "Postdoc E was championing the need to get proficient English speakers so as to allow for a stable language model. This did not mean limiting the type of accents that the speakers had but rather ensuring the speakers could proficiently follow the English grammar when they expressed themselves.",
+            "meeting": "Bmr006",
+            "relevant_text_span": "[['65', '102']]"
+        },
+        {
+            "query": "What was concluded on semantic specification?",
+            "answer": "The revised semantic specification and construction formalism are more stable than the previous versions. In the latter, we find both construction types and meaning types along with formal considerations like verb subcategorization, or the ones a \"directed motion\" construction would dictate.",
+            "meeting": "Bed015",
+            "relevant_text_span": "[['92', '132']]"
+        },
+        {
+            "query": "Please describe the semantic specification",
+            "answer": "The semantic specification, on the other hand, is split into three levels: \"scenario\" is a list of schemas and bindings between them, which describes the current event in terms of Source-Path-Goal, Container, etc.; \"referent\" is about the entities in the discourse and includes grammatical information and pointers to the ontology; \"discourse segment\" comprises utterance-specific things.",
+            "meeting": "Bed015",
+            "relevant_text_span": "[['520', '550']]"
+        }
+    ],
+    "36": [
+        {
+            "query": "What were the preliminary recognition results?",
+            "answer": "Preliminary recognition results were obtained for a subset of digits data. The error rate distribution was multimodal, reflecting differences in performance for native versus non-native speakers, and also possible pre-processing errors. ",
+            "meeting": "Bmr018",
+            "relevant_text_span": "[['377', '409']]"
+        },
+        {
+            "query": "Summarize the discussion on frame dropping and noise estimation",
+            "answer": "The team thought that the differences in performance between well-matched and high mismatch may have to do with the frame dropping problem. Tinkering around and changing a few small things was suggested as a way of improving performance. The team though it would also be nice to have the net on the server side where it would use less bandwidth. The team also discussed if averaging over the entire spectrum was a good idea.",
+            "meeting": "Bro025",
+            "relevant_text_span": "[['253', '339']]"
+        }
+    ],
+    "37": [
+        {
+            "query": "Summarize the discussion on feature classification",
+            "answer": "The feature classification had means of 0.3 for voiced and 0.59 for unvoiced on voice-unvoice, though the variance was quite high. The team was using TIMIT and was in the stage of looking for features. The professor thought that the team's intuition was leading them to make statistical characterizations of what was missing from the spectral envelope. They could use things they were potentially losing in the smoothing process.",
+            "meeting": "Bro014",
+            "relevant_text_span": "[['396', '498']]"
+        },
+        {
+            "query": "Summarize discussion on what to include in the meeting corpus and how to structure it",
+            "answer": "The discussion centered on the extent to which the recordings should be segmented for the corpus and which recordings should be included in the corpus. The team expressed that it would be helpful to filter out breath and non-verbal sounds. It also expressed that for two person conversations and transcripts that do not follow their general meeting setup, it could create a different directory.",
+            "meeting": "Bmr024",
+            "relevant_text_span": "[['222', '470']]"
+        },
+        {
+            "query": "What was the range of errors in the models?",
+            "answer": "The worst systems were still reducing errors between a third to half of the time. Though, there was a system in Aurora that did not do very well and the Alcatel systems seemed to do better.",
+            "meeting": "Bro008",
+            "relevant_text_span": "[['36', '46']]"
+        },
+        {
+            "query": "What did the Professor think about Danish and German models?",
+            "answer": "The professor explained that while the Danish model did not improve overall, the results were mixed over six cases. The team's models led to improvements, even without bug fixes, but they were better on the Danish than German.",
+            "meeting": "Bro008",
+            "relevant_text_span": "[['10', '28']]"
+        }
+    ],
+    "38": [
+        {
+            "query": "What did the participants think about using CD's for backup?",
+            "answer": "PhD I suggested putting the data on a CD-ROM but was informed that the data gets lost in a few years. PhD F expressed that it was generally a bad idea to have a copy on a medium that failed. Professionally pressed discs last longer, but they would be burning them in-house. The idea of re-burning the CD's each year was also not adopted.",
+            "meeting": "Bmr024",
+            "relevant_text_span": "[['534', '603']]"
+        },
+        {
+            "query": "Summarize the discussion about probability computation.",
+            "answer": "Professor B first emphasized the necessity of combining influences mathematically and asked Grad D to further explain the potential solutions. Then the students discussed the computation methods including weighted combination and mixture of experts, based on the mechanism of belief-nets. But there was no consensus on which method should be applied in belief-nets.",
+            "meeting": "Bed008",
+            "relevant_text_span": "[['669', '749']]"
+        },
+        {
+            "query": "Summarize the discussion about the experimental setup of the computer navigation system",
+            "answer": "The computer navigation system will work as follows. The subject of the experiment will familiarize themselves with information about a city. Then, they will be introduced to an advanced navigation system through which they can navigate the city, and they will be given several tasks, like buying stamps. The navigation system will crash, and the subject will be connected to a human operator. Then, the human operator will control the system based on the subject's requests as the subject tries to complete their tasks. Both sides, the assistant and the subject, will be recorded for data collection purposes.",
+            "meeting": "Bed002",
+            "relevant_text_span": "[['291', '351']]"
+        }
+    ],
+    "39": [
+        {
+            "query": "What did the team think about DAT?",
+            "answer": "Santa Barbara had released a corpus recently that had many styles of speech. The project used DAT recorders and had a lot of far field recordings. The recording in general were very clean.",
+            "meeting": "Bmr003",
+            "relevant_text_span": "[['268', '298']]"
+        },
+        {
+            "query": "What did the team think about power cables?",
+            "answer": "The team thought that a certain amount of rewiring was necessary to ensure a stable power supply. They also wanted to ensure that their equipment would not be plugged out. One way to solve this would be to build some sort of cabinet and collect the cables in one spot to avoid clutter.",
+            "meeting": "Bmr003",
+            "relevant_text_span": "[['1471', '1511']]"
+        },
+        {
+            "query": "What approaches were considered for the analysis?",
+            "answer": "The group discussed the prospect of performing fine-grained acoustic-phonetic analyses on a subset of digits or Switchboard data. It was suggested that prior to the use of data-driven methods, knowledge-driven approaches should be used to 'seed' the data with sub-phonemic features, either manually, or using a rich pronunciation dictionary. A new version of the pre-segmentation tool that segments channel-specific speech/non-speech portions of the signal has been developed and tested.",
+            "meeting": "Bmr013",
+            "relevant_text_span": "[['224', '310']]"
+        },
+        {
+            "query": "What did Grad C think about capturing subject intention?",
+            "answer": "Grad C introduced the topic and explained that the new idea was to allow subjects to generate high level tasks, like going shopping, by themselves. Subjects would also be provided a high level schematic which would give them basic features of the environment. Though, the schematic would not contain detailed information, like a street map, which would be reserved for interactions with the wizard. An instructor would be hired to help subjects navigate the high level tasks.",
+            "meeting": "Bed006",
+            "relevant_text_span": "[['162', '169'], ['213', '227']]"
+        }
+    ],
+    "40": [
+        {
+            "query": "What are progress updates?",
+            "answer": "The first phase of the data collection has finished. There is a new wizard for phase two, during which subjects will be given more complex scenarios. Also finished are the modifications on SmartKom: the remaining glitches will take no more than a day to iron out. A big part of the meeting was covered by the presentation of the PRM of the proposed system.",
+            "meeting": "Bed017",
+            "relevant_text_span": "[['12', '48']]"
+        },
+        {
+            "query": "Summarize the discussion about the state of the final model",
+            "answer": "The team had started putting together the various techniques they had developed into a single software. Their score was 53.6 and it was working on spectral subtraction and noise addition after cleaning up mel bins. The professor did not think much had changed.",
+            "meeting": "Bro025",
+            "relevant_text_span": "[['6', '42']]"
+        },
+        {
+            "query": "Summarize the discussion on managing the complexity of the model",
+            "answer": "The team discussed the size of the neural net, which was just a simple net. At the time, it had 27 outputs, but the professor recommended that they use a larger net, with perhaps more features. They discussed the effect that removing silent frames could have on the model. The professor recommended having a bigger hidden layer, though he did not think that would substantially improve performance. Currently, however, the team was facing computational limitations.",
+            "meeting": "Bro004",
+            "relevant_text_span": "[['487', '750']]"
+        },
+        {
+            "query": "Summarize the discussion on the performance of the deployed model",
+            "answer": "The deployed model generally decreased error rates, but the extent to which it did so varied based on the language as well as where it was deployed. They learned that similar projects experienced the same challenges. Still, the model was not efficient and likely used too much CPU and memory for the benefit it provided.",
+            "meeting": "Bro008",
+            "relevant_text_span": "[['0', '76']]"
+        },
+        {
+            "query": "Summarize the discussion on professor's suggestions on improving model performance",
+            "answer": "The professor made his suggestions through stories. The Professor wanted to make a point about how they should run a set of experiments to measure the effect of different features with variance in mind. He explained that they should weight each coefficient by inverse of the variance.",
+            "meeting": "Bro017",
+            "relevant_text_span": "[['590', '665']]"
+        }
+    ],
+    "41": [
+        {
+            "query": "What was said about EML talk?",
+            "answer": "The talk will present the work that is currently being done at ICSI including examples of inference of user intentions and of the recordings of the on-going data collection. The talk will also outline the theoretical (X-schemas, image schemas, Bayes-nets) and neural background.",
+            "meeting": "Bed016",
+            "relevant_text_span": "[['176', '210']]"
+        },
+        {
+            "query": "What was the general discussion of the meeting?",
+            "answer": "The translation of SmartKom to english is in its final stages. The variety of linguistic conventions seem to develop around an ego/allo-centric and a proximal/distal paradigm. From an engineering perspective, the belief-net for the AVE task should be completed within a few weeks. Since the whole system is going to be re-designed, there are major decisions to be taken regarding the parser and the ontology, as well as what can be re-used from past EML projects. In parallel, another team is working on formalisation and notation. Finally, more ideas are expected to come from students and their research.",
+            "meeting": "Bed010",
+            "relevant_text_span": "[['5', '27']]"
+        },
+        {
+            "query": "What did the participants think about what constitutes a meeting?",
+            "answer": "The participants were skeptical that a two person conversation in the hallway constituted a meeting for their purposes. They thought that it would be okay to include this kind of data in their corpus for future researchers, but they should separate it. The Professor has a strong opinion that these interactions were not actually meetings.",
+            "meeting": "Bmr024",
+            "relevant_text_span": "[['387', '452']]"
+        },
+        {
+            "query": "Summarize the discussion about generating queries",
+            "answer": "The team wanted to think about how they would generate queries. One method was directly generating queries from the summaries, though the concern was that this would not be very desirable. Asking an open ended question about what was most interesting would allow the team to get a sense of the important topics.",
+            "meeting": "Buw001",
+            "relevant_text_span": "[['741', '907']]"
+        },
+        {
+            "query": "What did the team discuss about the Wall Street Journal data?",
+            "answer": "PhD E informed the team that Guenter was putting the Wall Street Journal data on the team's disks. There was a lot of data so it would take some time to run the models.",
+            "meeting": "Bro026",
+            "relevant_text_span": "[['394', '409']]"
+        }
+    ],
+    "42": [
+        {
+            "query": "What were the problems associated with mental spaces?",
+            "answer": "The Bayes-net is going to be the focus of the presentation. In order to complete a functioning prototype of the belief-net, it was decided to start expanding the Ontology and Discourse nodes by working with a simple construction, like \"where is X?\". A robust analysis of such a basic utterance will indicate what the limits of the information derived from the construction are, as well as ways to design the whole module and fit other constructions in. ",
+            "meeting": "Bed014",
+            "relevant_text_span": "[['176', '211']]"
+        },
+        {
+            "query": "How would the mental spaces operate?",
+            "answer": "Mental spaces can be tackled with mechanisms that can also deal with context issues (time, space etc.): creating a base space and rules of interaction with other interconnected spaces. However, the complexity of these mechanisms has to be bound as well: it is necessary to define the range of constructions to be studied. ",
+            "meeting": "Bed015",
+            "relevant_text_span": "[['554', '610']]"
+        }
+    ],
+    "43": [
+        {
+            "query": "What was said about mixed signals?",
+            "answer": "Transcribers risk overlooking speech that is deeply embedded in the mixed signal. Should transcriptions be derived from each of the close-talking channels or from the mixed signal alone? The pre-segmentation tool does not perform well on short utterances, e.g. backchannels.",
+            "meeting": "Bmr018",
+            "relevant_text_span": "[['334', '357']]"
+        },
+        {
+            "query": "Summarize the discussion about VAD improvements",
+            "answer": "The team thought that it was not fair to get a good VAD since there weren't enough baseline features. An MFCC would have been more appropriate, but optimizing for one meant lower scores on the other. In general, the model was better now due to lower latencies.",
+            "meeting": "Bro014",
+            "relevant_text_span": "[['289', '377']]"
+        },
+        {
+            "query": "Summarize the discussion on VAD results",
+            "answer": "The VAD neural net had twelve times nine inputs and two outputs. The system had improved significantly. It added some latency but the team could potentially run it in parallel.",
+            "meeting": "Bro027",
+            "relevant_text_span": "[['221', '330']]"
+        },
+        {
+            "query": "What did postdoc A think about new headphones?",
+            "answer": "Postdoc A thought that the original headphones had low gain, so he purchased new earphones. He informed the team that he just bought them from Cambridge SoundWorks down the street. They always have them in stock.",
+            "meeting": "Bmr027",
+            "relevant_text_span": "[['717', '762']]"
+        },
+        {
+            "query": "What were other ways to get more space?",
+            "answer": "Professor D said they would be getting another disk rack that would bring in four thirty-six gigabyte disks, increasing the space. Additionally, the directories of Aurora data, Carmen\u2019s Data and SPINE were likely to be moved.",
+            "meeting": "Bmr006",
+            "relevant_text_span": "[['421', '437']]"
+        },
+        {
+            "query": "What was said about the deadline?",
+            "answer": "There is a slight worry about the acceptance of the paper submitted to Eurospeech as the deadline was exceeded.",
+            "meeting": "Bmr020",
+            "relevant_text_span": "[['53', '65']]"
+        }
+    ],
+    "44": [
+        {
+            "query": "What did PhD A think about VAD?",
+            "answer": "PhD A thought that a good VAD could not be made without baseline features. On-line normalization was not helping the model when spectral subtraction was already in play. The short filters were performing as well as the long ones, and the model was doing well on the well-matched case. Despite mixed results, the shorter latency was a positive sign.",
+            "meeting": "Bro014",
+            "relevant_text_span": "[['289', '390']]"
+        },
+        {
+            "query": "What did PhD E say about the best result?",
+            "answer": "PhD E explained that the best result was when FFT bins were applied with a Wiener filter and no noise was added. The results with noise addition were very close, but not as good.",
+            "meeting": "Bro025",
+            "relevant_text_span": "[['23', '33']]"
+        },
+        {
+            "query": "What did PhD A think about the results?",
+            "answer": "PhD A thought that most of the nets are not that good, except for the multi English. MSG was not bringing as much information as he thought it would. He explained that even when the features were not normalized, the neural network would perform at 90%, as it would with normalization.",
+            "meeting": "Bro005",
+            "relevant_text_span": "[['62', '172']]"
+        },
+        {
+            "query": "What did PhD B think about meeting diversity?",
+            "answer": "PhD B explained the different features of meetings and favored collection of diverse data. PhD B thought the team's data collection could focus on natural meetings, but there was no reason to not incorporate other data.",
+            "meeting": "Buw001",
+            "relevant_text_span": "[['1338', '1377']]"
+        }
+    ],
+    "45": [
+        {
+            "query": "Summarize the discussion on future directions",
+            "answer": "The team discussed testing a multi-band approach that is more resistance to noise. The professor thought that it many not be a bad idea to put together several MLP's to improve performance. The team also thought that there might be problems with the pronunciation models.",
+            "meeting": "Bro005",
+            "relevant_text_span": "[['497', '685']]"
+        },
+        {
+            "query": "What did PhD D explain about the multilingual model?",
+            "answer": "PhD D explained that the multilingual model, trained on French, Spanish, and English, was trained with higher frame rates. It has slightly poorer results when delta was not used. All in all, the addition of English did not seem to help the model.",
+            "meeting": "Bro004",
+            "relevant_text_span": "[['295', '303']]"
+        },
+        {
+            "query": "What did PhD C and the professor discuss about multiple languages?",
+            "answer": "PhD C and the professor expressed a desire to learn more about nets that incorporated multiple languages. They thought they could explore whether it was better to have one net for many languages or different nets for each language.",
+            "meeting": "Bro008",
+            "relevant_text_span": "[['202', '223']]"
+        },
+        {
+            "query": "Summarize the discussion about releasing meeting data and allowing people to cut things out",
+            "answer": "The team decided to release their data on July 15th, but they still wanted to give people time to bleep things from the transcripts. There was skepticism that they could actually reach out to people and get everyone's consent that they were okay with whatever was being released.",
+            "meeting": "Bmr027",
+            "relevant_text_span": "[['503', '600']]"
+        }
+    ],
+    "46": [
+        {
+            "query": "Summarize the discussion on the transcription pipeline",
+            "answer": "The team discussed the various institutions, like University of Washington and Santa Barbara, that were involved in the transcription task. The team wanted to know how diversity of sound would effect their data. The team also wanted more corpuses and have more students at future meetings.",
+            "meeting": "Bmr003",
+            "relevant_text_span": "[['174', '372']]"
+        },
+        {
+            "query": "Summarize the details about setting up the wizard and recruiting participants",
+            "answer": "The team listened to a recording of the interface's trial run. Litonya was asked to be the first subject of the interface and Fey acted as the wizard. The team was happy with Fey's performance and decided to hire her. Upon Fey's suggestion, they also decided that the wizard should be introduced in a more appropriate fashion. The team also agreed that the run was too long at 5 minutes.",
+            "meeting": "Bed004",
+            "relevant_text_span": "[['39', '127']]"
+        },
+        {
+            "query": "Summarize the discussion on improving the back recognizer for the Aurora task",
+            "answer": "PhD B was conducting an experiment to improve the backend performance of the Aurora recognizer. The goal was recognizing the HTK system by challenging the canonical paradigm.",
+            "meeting": "Bro011",
+            "relevant_text_span": "[['238', '313']]"
+        },
+        {
+            "query": "How did PhD B approach the back-end of the Aurora recognizer?",
+            "answer": "PhD B focused on Italian and experimented with the number of states for different words. PhD B thought training for each case may improve performance by accounting for the difference in variance.",
+            "meeting": "Bro011",
+            "relevant_text_span": "[['241', '255']]"
+        },
+        {
+            "query": "What did the professor think about improving the back recognizer for the Aurora task?",
+            "answer": "The Professor thought that the experiments were pretty simple, so computational power was not really a problem. He also thought that it would be okay to increase the states from six to nine.",
+            "meeting": "Bro011",
+            "relevant_text_span": "[['301', '311']]"
+        },
+        {
+            "query": "What was the team joking about when it came to scheduling meetings?",
+            "answer": "The team was joking about one meeting being a \"guys\" meeting because both the female members of the group would be in the other meeting. They also seemed to be using foul language and joked at all the bleeping it would entail in the transcription.",
+            "meeting": "Bmr026",
+            "relevant_text_span": "[['436', '452']]"
+        }
+    ],
+    "47": [
+        {
+            "query": "What did the professor think about the effect of noise on speech frequencies?",
+            "answer": "The professor informed the team that noise was affecting their recordings but Dan had assured him that the quantization effect was not significant. He thought that the team should update their web page to better reflect their understanding of the topic.",
+            "meeting": "Bro012",
+            "relevant_text_span": "[['2', '34']]"
+        },
+        {
+            "query": "Summarize the discussion on noise addition",
+            "answer": "Too much noise was causing the model to perform worse, so the noise addition was constant and not too high. The overall improvement was good. The smoothing for the average for noise addition was only done on low gains. The model performed better on high mismatch.",
+            "meeting": "Bro024",
+            "relevant_text_span": "[['755', '889']]"
+        },
+        {
+            "query": "What did professor G say about smoothing?",
+            "answer": "Professor G was trying to understand where the smoothing took place in PhD B's model. Professor G suggested that the smoothing was best done as early as possible.",
+            "meeting": "Bro024",
+            "relevant_text_span": "[['814', '835']]"
+        },
+        {
+            "query": "Summarize the discussion about FIR filters and dealing with additive noise",
+            "answer": "The team was looking at existing models and thinking about the various bugs that they had to deal with. The frequency differences in the FIR filters was one. Another thing they wanted to look into was handling additive noise, which they had not dealt with explicitly.",
+            "meeting": "Bro010",
+            "relevant_text_span": "[['0', '171']]"
+        }
+    ],
+    "48": [
+        {
+            "query": "Summarize the discussion on the tax return",
+            "answer": "Grad D was focused on filing his taxes. He explained to the team that he had both Canadian and US income, so he had to file taxes in both countries for the preceding year.",
+            "meeting": "Bro016",
+            "relevant_text_span": "[['415', '447']]"
+        }
+    ],
+    "49": [
+        {
+            "query": "What did the Professor think about the results?",
+            "answer": "The professor noted that the results were better than he expected and that the MSG did nothing. He also noted that adding French and Spanish to the multilingual English model hurt the model.",
+            "meeting": "Bro005",
+            "relevant_text_span": "[['159', '213']]"
+        },
+        {
+            "query": "What did the professor think about clustering?",
+            "answer": "The professor was not too excited about clustering. He thought that the team could identify the bands that were the most promising and weigh them more highly in the model. As it stood, the model was using all bands with equal strength.",
+            "meeting": "Bro011",
+            "relevant_text_span": "[['195', '224']]"
+        },
+        {
+            "query": "Language generation",
+            "answer": "For the SmartKom generation module, all the syntax-to-prosody rules are going to be re-written for English. Additionally, OGI can offer a range of synthesiser voices to choose from. ",
+            "meeting": "Bed014",
+            "relevant_text_span": "[['87', '130']]"
+        }
+    ],
+    "50": [
+        {
+            "query": "What was decided on DARPA?",
+            "answer": "A pressing concern for the group is the DARPA meeting in July, which is only a short time away, and for which they would like to have some progress. ",
+            "meeting": "Bmr023",
+            "relevant_text_span": "[['32', '35']]"
+        },
+        {
+            "query": "What were the contents of the paper?",
+            "answer": "As to the content of the paper, the overlap statistics have not been normalised against the number of participants in the conversation, although the dependency is probably going to be a weak one. Additionally, the correlation between pauses in speech and interruptions does not provide a cause-and-effect link for these phenomena. ",
+            "meeting": "Bmr020",
+            "relevant_text_span": "[['185', '200']]"
+        },
+        {
+            "query": "What statistics were included in the paper?",
+            "answer": "The statistics in the paper are based on the transcripts of two meetings and two telephone conversation corpora. In the first two, the overlapped words vary between 9% and 18%. The telephone conversation results were in-between and very similar to each other.",
+            "meeting": "Bmr020",
+            "relevant_text_span": "[['131', '138']]"
+        }
+    ],
+    "51": [
+        {
+            "query": "Why was the project fit to be included in a conference paper?",
+            "answer": "There is potential to make a conference paper out of presenting the current work and the project aspirations within a parsing paradigm. Similarly, as no one could recall some of the points of the conference call, the group will have to meet again and define the exact structure and content of the paper they are going to submit.",
+            "meeting": "Bed013",
+            "relevant_text_span": "[['193', '228']]"
+        }
+    ],
+    "52": [
+        {
+            "query": "What was said about the parser interface?",
+            "answer": "Efforts are in progress to complete and test the code, generate an English grammar like that used in the German system, and get the parser interface working. A 'wizard of Oz' style data collection experiment is in progress to model users' underlying intentions when communicating with the dialogue component of a tourist domain GPS. ",
+            "meeting": "Bed009",
+            "relevant_text_span": "[['28', '61']]"
+        }
+    ],
+    "53": [
+        {
+            "query": "What did the team discuss about CVS security?",
+            "answer": "While remote CVS access seemed to be working, the team was unsure about setting up a CVS server on a new port. That required a password mechanism. But the team thought an anonymous CVS might be good to store transcripts as it relied on open source software.",
+            "meeting": "Bro026",
+            "relevant_text_span": "[['34', '68']]"
+        },
+        {
+            "query": "What did the team discuss about OGI and CVS?",
+            "answer": "The team wanted to know if OGI was using CVS to access the code. It seemed that they were not. No one there was working on Aurora. Though, they were expecting Sunil to grab it and start working on Aurora once he returned.",
+            "meeting": "Bro026",
+            "relevant_text_span": "[['17', '31']]"
+        }
+    ],
+    "54": [
+        {
+            "query": "What did Grad B think about time series?",
+            "answer": "Grad B was working with Larry Saul on factorial HMM and doing inference with them. Grad B thought that perhaps modulation spectrum could be used on features and sub-bands to advance this work.",
+            "meeting": "Bro013",
+            "relevant_text_span": "[['329', '336']]"
+        },
+        {
+            "query": "Summarize the discussion about new headphones and disk space",
+            "answer": "The team decided that it would be a good idea to purchase headphones. They also ordered a hundred gigabytes of disk space though they thought an extra eighteen for backup would not be a bad idea. This was good because the team was currently constrained by space.",
+            "meeting": "Bmr027",
+            "relevant_text_span": "[['714', '858']]"
+        },
+        {
+            "query": "What did the Professor think about headphones and disk space?",
+            "answer": "The professor thought that anyone who needed headphones should purchase them since they were not very expensive. He wanted to get the discussion about disk space out of the way. He informed the team that he had ordered a hundred gigabytes.",
+            "meeting": "Bmr027",
+            "relevant_text_span": "[['736', '808']]"
+        }
+    ],
+    "55": [
+        {
+            "query": "What did the group agree on training and testing the digits corpus?",
+            "answer": "For comparing Meeting Recorder digits results, it was decided that the Aurora HTK-based system should be tested on data from the TI digits corpus",
+            "meeting": "Bmr019",
+            "relevant_text_span": "[['104', '112']]"
+        },
+        {
+            "query": "What was the current technique and its limitations?",
+            "answer": "Current speech alignment techniques assume that foreground speech must be continuous and, barring some isolated words and backchannels, can not cope with overlapping background speech. Performing adaptations on both the foreground and background speaker produced a new variety of misalignments, a problem resulting, in part, from the fact that background speakers often match better to foreground conditions. ",
+            "meeting": "Bmr019",
+            "relevant_text_span": "[['460', '489']]"
+        },
+        {
+            "query": "What did the team think about their progress?",
+            "answer": "The professor asked if the team was happy with their progress. The team thought that they were okay. The professor was insistent that everyone be happy since they were pretty much done.",
+            "meeting": "Bro005",
+            "relevant_text_span": "[['644', '654']]"
+        },
+        {
+            "query": "What did the team think about delays?",
+            "answer": "The team talked about delays when discussing the removal of frames that were silent. This could possibly improve model performance at the cost of a small delay.",
+            "meeting": "Bro004",
+            "relevant_text_span": "[['646', '656']]"
+        }
+    ],
+    "56": [
+        {
+            "query": "What challenges needed to be overcome before submission for Eurospeech\u201901?",
+            "answer": "Deleting segments of the recordings is expected to be very time-consuming for transcribers. More results are needed for generating adequate submissions for Eurospeech'01.",
+            "meeting": "Bmr018",
+            "relevant_text_span": "[['702', '743']]"
+        },
+        {
+            "query": "What was said on speech overlap?",
+            "answer": "Efforts by speaker mn005 are in progress to detect overlapping speech. For a single transcribed meeting, speaker mn005 reported approximately 300 cases of overlap. Future work will involve manually deriving time marks from sections of overlapping speech for the same meeting, and then experimenting with different measures, e.g. energy increase, to determine a set of acoustically salient features for identifying speaker overlap. ",
+            "meeting": "Bmr005",
+            "relevant_text_span": "[['193', '300']]"
+        },
+        {
+            "query": "Summarize the discussion on LPC",
+            "answer": "The team was filtering out white noise from the digit task using LPC. The concern was that LPC was not a great representation of speech. The LPC was adding degradation.",
+            "meeting": "Bro028",
+            "relevant_text_span": "[['149', '166']]"
+        },
+        {
+            "query": "Summarize the discussion on deletions and improving the net",
+            "answer": "Adding the neural net was doubling the number of deletions. The model did not improve significantly, however, thought it became better at some tasks. The results were a mixed basket and it was decided that further experimentation was necessary.",
+            "meeting": "Bro027",
+            "relevant_text_span": "[['678', '818']]"
+        },
+        {
+            "query": "What was said about the overlaps? ",
+            "answer": "PhD G explained how the data represents the number of overlaps regardless of the number of speakers. It is important to  answer the question of whether overlaps are distributed evenly throughout or whether they are in bursts. Anonymizing the results and classifying overlaps by type may assist in standardizing cultural ways of conversing. PhD G proposed finding the average length of overlaps and the distribution of the duration of overlaps .",
+            "meeting": "Bmr007",
+            "relevant_text_span": "[['44', '286']]"
+        },
+        {
+            "query": "Summarize what was said on Control and Further Modifications",
+            "answer": "Postdoc F said or a control experiment,  having a number of meetings with a smaller group of people may be useful. Since most of the meetings currently have between five and eight people, the control would have three person meetings.",
+            "meeting": "Bmr007",
+            "relevant_text_span": "[['383', '535']]"
+        }
+    ],
+    "57": [
+        {
+            "query": "What demos would the system be involved in?",
+            "answer": "The final english SmartKom demo will be presented to the whole institute once the system is de-bugged and stabilised.",
+            "meeting": "Bed010",
+            "relevant_text_span": "[['132', '145']]"
+        },
+        {
+            "query": "Summarize the discussion on backups and collecting notes with meetings",
+            "answer": "The team agreed that it was important to keep good backups. Their main concern was the time difference between getting more disks and recording new meetings. They did not want to rely on burning CD's at all because of potential loss of data. They also started discussing whether it would be a good idea to collect meeting notes from the participants as well, but that would entail installing new infrastructure.",
+            "meeting": "Bmr025",
+            "relevant_text_span": "[['397', '648']]"
+        },
+        {
+            "query": "What was said about Switchboard?",
+            "answer": "Professor D said Switchboard does not allow for accurate recording of backchannels, especially with a smaller audience. Backchannels , which are the vast majority of overlaps in Switchboard don't play as big a role online, because it 's unnatural to backchannel with a multi- person audience.",
+            "meeting": "Bmr007",
+            "relevant_text_span": "[['210', '392']]"
+        },
+        {
+            "query": "Summarize the discussion about scheduling meetings going forward",
+            "answer": "The team thought that they should not have everyone attend meetings on specific topics. For general catchup meetings like this, they thought it would make sense to alternate every two weeks. The team joked around about having a guys meeting, as one of the groups would not have any female members. They were mainly concerned with collecting more data through their own meeting recordings. Though, many of the meetings they were having for that purpose were shorter than they would have liked.",
+            "meeting": "Bmr026",
+            "relevant_text_span": "[['412', '507']]"
+        },
+        {
+            "query": "What did the professor think about scheduling meetings going forward?",
+            "answer": "The professor polled the group on how many people would not be interested in meetings on recognition. He thought that they should at least try the smaller meetings and see what happens.",
+            "meeting": "Bmr026",
+            "relevant_text_span": "[['425', '500']]"
+        }
+    ],
+    "58": [
+        {
+            "query": "What did the professor say about the final model?",
+            "answer": "The professor was happy to hear that the team had already started putting together a final software. The professor also noted that Finnish and Spanish had the smallest overall number compared to Aurora.",
+            "meeting": "Bro025",
+            "relevant_text_span": "[['7', '41']]"
+        },
+        {
+            "query": "What did PhD E think about improving the model?",
+            "answer": "PhD E thought that changing a few things could result in an improvement, but they had to be careful with the neural net. PhD also played around with noise estimation to improve the model but did not play around with it much.",
+            "meeting": "Bro025",
+            "relevant_text_span": "[['261', '310']]"
+        },
+        {
+            "query": "What did the professor think about improving the model?",
+            "answer": "The professor wanted to know how much the model improved due to frame dropping. He thought four or five changes would result in good improvements. The professor highlighted that improvements should not come at a higher bandwidth.",
+            "meeting": "Bro025",
+            "relevant_text_span": "[['265', '283']]"
+        },
+        {
+            "query": "Summarize the discussion on time series, reverberation and pronouncing zero",
+            "answer": "Grad B shared some of his progress on how the modulation spectrum could speak to the intelligibility of different linguistic units. Grad C was working on reverberation and how a model may deal with varying reverberation response. The discussion ended with different pronunciation, \"O\" and \"zero\" for the digit zero.",
+            "meeting": "Bro013",
+            "relevant_text_span": "[['326', '394']]"
+        }
+    ],
+    "59": [
+        {
+            "query": "What\u2019s the status of digits data?",
+            "answer": "A test set of digits data totalling two hours is nearly complete. Digit extraction has been performed on roughly half of this data",
+            "meeting": "Bmr016",
+            "relevant_text_span": "[['112', '156']]"
+        },
+        {
+            "query": "What additional assignments were proposed about the digits?",
+            "answer": "Future work may involve experimenting with the reading of digits in different prosodic groupings.",
+            "meeting": "Bmr016",
+            "relevant_text_span": "[['325', '340']]"
+        }
+    ],
+    "60": [
+        {
+            "query": "What did the professor say about the workshop?",
+            "answer": "The professor recalled that at a workshop at Hopkins or Rutgers, twenty-five participants were running their tasks on twenty-five machines. Things would have been better if they ran tasks on their own machine. He was adding to PhD F's remarks on students in the team doing a similar thing.",
+            "meeting": "Bro019",
+            "relevant_text_span": "[['53', '75']]"
+        },
+        {
+            "query": "What did the team say about the person in Grenada?",
+            "answer": "PhD D brought up a VTS technique to do voice-unvoice which was developed by Jose Carlos Segura, who is a person from Grenada. The professor did not know him, but the inspiration for the VTS had come from CMU.",
+            "meeting": "Bro019",
+            "relevant_text_span": "[['447', '463']]"
+        },
+        {
+            "query": "What was to be included in the new form arrangement?",
+            "answer": "For the new forms, one is a one time only speaker form and the other is the digits. The reason the time is included above the date is so that the person who 's extracting the digits will know where to look in the meeting , to try to find them.  In addition to Name, Time and Email which the participant fills out,  the form including seat number, session, native language, region of origin, time spent in an English speaking country, and accent characterization filled by research facilitators, after conducting a short interview. ",
+            "meeting": "Bmr009",
+            "relevant_text_span": "[['604', '821']]"
+        },
+        {
+            "query": "What was the proposed structure of the belief net.",
+            "answer": "The team discussed that the organisation of the intermediate nodes of the belief-net and their properties is almost complete, although no conditional probabilities have been inserted yet. These nodes represent decisions that will function as parameters to action calls in the system. Their values will either be inferred from the user-system interaction, or -as a last resort- requested directly from the user.",
+            "meeting": "Bed011",
+            "relevant_text_span": "[['76', '103']]"
+        },
+        {
+            "query": "What did Grad B say about the structure of the belief net?",
+            "answer": "It is necessary for the belief-net to have at least one layer of nodes between the features and the final output. This makes the structure more flexible in terms of coding feature-layer probabilities. ",
+            "meeting": "Bed003",
+            "relevant_text_span": "[['137', '150']]"
+        }
+    ],
+    "61": [
+        {
+            "query": "What did the professor think about carriage returns?",
+            "answer": "The professor told a story about how people could pretend to be working by consuming computer memory without doing anything useful. He recounted a story about a company that was paid by the U.S. government based on the amount of computer time they used. The company ran a useless program to rack up computer time.",
+            "meeting": "Bro017",
+            "relevant_text_span": "[['592', '612']]"
+        }
+    ],
+    "62": [
+        {
+            "query": "What did Grad D think about the tax return?",
+            "answer": "Grad D thought that his tax returns were taking too much time. He had started writing code for his work, however. He was expecting that his taxes would be easier next year, since he would not have to declare his Canadian income.",
+            "meeting": "Bro016",
+            "relevant_text_span": "[['416', '447']]"
+        },
+        {
+            "query": "What did the professor think about the tax return?",
+            "answer": "The professor initially suggested that not making too much money made taxes easier. He learned that Canada wants taxes from Grad D. He also wanted to know if the same would hold for the coming year.",
+            "meeting": "Bro016",
+            "relevant_text_span": "[['428', '447']]"
+        }
+    ],
+    "63": [
+        {
+            "query": "What did the professor think about positional parameters?",
+            "answer": "The professor recounted that the person who worked with positional parameters, Mark Randolph, is at Motorola. He explained that his model consisted of many continuous variables and that heading in that direction would become a research project in and of itself.",
+            "meeting": "Bro011",
+            "relevant_text_span": "[['172', '191']]"
+        }
+    ],
+    "64": [
+        {
+            "query": "Summarize the discussion about language training data for cell phones",
+            "answer": "The team was gathering data from different languages and preparing relevant baselines. The professor reiterated that the multilingual focus was key since the reason for this project was to replace mel cepstra with a more robust, multilingual model. They needed sufficient diversity in the languages they used.",
+            "meeting": "Bro003",
+            "relevant_text_span": "[['74', '200']]"
+        },
+        {
+            "query": "Summarize the discussion about the effect of training on different languages",
+            "answer": "Using multiple languages led to more diversity which potentially hindered the model performance. The professor was skeptical about discussing the results since they had not received any good ones so far.",
+            "meeting": "Bro004",
+            "relevant_text_span": "[['206', '323']]"
+        }
+    ],
+    "65": [
+        {
+            "query": "Summarize discussion on the pragmatic overview of the project",
+            "answer": "The team gathered some ideas on how they could further improve the model, perhaps by focusing more so on MSG and multi-band. The professor iterated that the task was pretty hard, and their model was still not good enough for a real system. The team was generally excited about the Aurora data, as it was more realistic, and about further pursuing the task.",
+            "meeting": "Bro008",
+            "relevant_text_span": "[['167', '244']]"
+        },
+        {
+            "query": "What did the professor think about the pragmatic overview of the project?",
+            "answer": "The professor thought that they needed to work more and asked who had ideas on how they could pursue new directions. He himself wanted to try out playing with MSG and multi-band. He also thought that they should try learning more about different acoustic environments.",
+            "meeting": "Bro008",
+            "relevant_text_span": "[['168', '194']]"
+        }
+    ],
+    "66": [
+        {
+            "query": "What did the team say about the transcriber interface?",
+            "answer": "The Transcriber interface may require modifications if it becomes necessary for transcribers to quickly switch among waveform displays.",
+            "meeting": "Bmr018",
+            "relevant_text_span": "[['295', '316']]"
+        },
+        {
+            "query": "What did Speaker F state about the transcriber tool?",
+            "answer": "Recent modifications to the Transcriber tool allow transcribers to listen to speech from different channels, as well as helping to preserve portions of overlapping speech, and enabling the creation of different output files for each channel for a cleaner and more segmentable transcript.",
+            "meeting": "Bmr010",
+            "relevant_text_span": "[['249', '268']]"
+        },
+        {
+            "query": "What did the team say on alternative transcription tools? ",
+            "answer": "The Praat software package was discussed as an alternative transcription tool capable of representing multiple channels of speech. Cross-correlation was discussed as a means of enabling speaker identification, and may be integrated into future work.",
+            "meeting": "Bmr010",
+            "relevant_text_span": "[['172', '196']]"
+        }
+    ],
+    "67": [
+        {
+            "query": "Summarize the discussion on mean subtraction in SRI",
+            "answer": "The team got an improvement on the SRI system for TI- digits and Meeting Recorder digits but near mic performance worsened. The team explored the reasons for this difference. The professor suggested getting rid of low energy sections. The team also discussed how more nuanced normalization approaches could improve task performance.",
+            "meeting": "Bro022",
+            "relevant_text_span": "[['72', '158']]"
+        },
+        {
+            "query": "Summarize the discussion on SRI experiments and mean subtraction",
+            "answer": "The SRI system was doing worse on the hub-five training set for mean subtraction. The model performed better on six seconds of training data rather than twelve seconds, but the improvement was only point three percent. The professor thought small differences were important for research but not as important in industry. One suggestion for further work was changing speech rate using the algorithm, though it came at the risk of degrading the data.",
+            "meeting": "Bro024",
+            "relevant_text_span": "[['15', '73']]"
+        }
+    ],
+    "68": [
+        {
+            "query": "What did PhD C think about on-line normalization?",
+            "answer": "PhD C told the team about two approaches to on-line normalization. On was using a time constant and the other was using different means for silence and speech. But the means were not behaving as expected. Addition of white noise made it such that the important difference between the means disappeared.",
+            "meeting": "Bro021",
+            "relevant_text_span": "[['25', '94']]"
+        },
+        {
+            "query": "Summarize the discussion on quals and phase normalization",
+            "answer": "Grad A was working on cheating experiments to study classification of phones for his qualifying exam. Grad G fixed a bug in his Matlab code for phase normalization and started receiving better results.",
+            "meeting": "Bro021",
+            "relevant_text_span": "[['202', '243']]"
+        },
+        {
+            "query": "What did the professor think about phase normalization?",
+            "answer": "The professor thought that the Broadcast News net could be scaled down. The big one took two to three weeks. Phase normalization experiments relied on it. He also suggested that the math can be simplified to just complex numbers.",
+            "meeting": "Bro021",
+            "relevant_text_span": "[['245', '257']]"
+        }
+    ],
+    "69": [
+        {
+            "query": "Summarize the discussion about value for user and situation models.",
+            "answer": "First, Grad E proposed a question about better discriminating the definition of user and situation models, and it was necessary to set values for the models. Then, they discussed the issues in terms of the user's running budget, which was vital for the outcome of decisions. They tried to design a set of terms to describe the user's financial policy, such as thrift, average, spendy, or more finer scale ones.",
+            "meeting": "Bed008",
+            "relevant_text_span": "[['45', '81']]"
+        },
+        {
+            "query": "What did the group members think of the value of user budget when discussing value for user and situation models?",
+            "answer": "The reason why they mentioned user budget was that they wanted to take this example to further discuss the value for user model. Also, user budget was an important factor for the outcomes of decisions. Then, they tried to decide which set of words could represent the budget better. Finally, they found that the words that could describe financial policy of users, such as user thrift, was appropriate.",
+            "meeting": "Bed008",
+            "relevant_text_span": "[['47', '81']]"
+        }
+    ],
+    "70": [
+        {
+            "query": "What did Grad E think about the goal of his experiment?",
+            "answer": "Grad E thought that the idea of doing mean log magnitude spectral subtraction was figuring out the effect of training time on the model performance. It seemed that longer times had diminishing returns after a certain point.",
+            "meeting": "Bro023",
+            "relevant_text_span": "[['51', '72']]"
+        },
+        {
+            "query": "What did Grad A think about the experiments Grad A was running?",
+            "answer": "Grad A thought that the experiments would explain which categories were good for speech recognition. The experiments would do phone recognition with TIMIT and the output would go into a standard recognizer, maybe Chronos.",
+            "meeting": "Bro021",
+            "relevant_text_span": "[['205', '225']]"
+        }
+    ],
+    "71": [
+        {
+            "query": "What did the team say about recording conventions?",
+            "answer": "Efforts will be made to ensure that recording conventions are consistent across ICSI, the University of Washington, and SRI.",
+            "meeting": "Bmr014",
+            "relevant_text_span": "[['99', '121']]"
+        },
+        {
+            "query": "What did the team say about incorporating video recordings",
+            "answer": "Setting up a microphone array and performing video recordings (in a possible collaboration with NIST) are problematic due to the types of changes in infrastructure they require. ",
+            "meeting": "Bmr011",
+            "relevant_text_span": "[['268', '285']]"
+        }
+    ],
+    "72": [
+        {
+            "query": "What did B think about the experimental setup of the computer navigation system?",
+            "answer": "B explained that the subject of the experiment will first be given texts about a city, so they can familiarize themselves with foreign terms. Then, they will be introduced to a computer navigation system with which they can navigate the city and provided with a set of tasks to complete. Then, the computer system will crash, including the GPS, so the person will not even know where they are, and the human operator will assist them. To find their location, the subject will have to provide visual information to the human operator. B also thought that creating movies of walking would require a lot of technical effort but later claimed that it may be worth it. B clarified that the goal was to see how people communicate in such a scenario.",
+            "meeting": "Bed002",
+            "relevant_text_span": "[['291', '298'], ['310', '328']]"
+        },
+        {
+            "query": "What did D think about the experimental setup of the computer navigation system?",
+            "answer": "D wanted to know if the videos for the navigation system would be recorded from a first person perspective. D was also trying to understand how ambitious the system was. D learned that the goal was to understand how people reacted and talked in such a scenario. D provided some information about potential candidates for the human operator and wizard roles as well.",
+            "meeting": "Bed002",
+            "relevant_text_span": "[['299', '319'], ['342', '346']]"
+        }
+    ],
+    "73": [
+        {
+            "query": "What was decided on the microphone procedures?",
+            "answer": "Following close-talking microphone recognition procedures, it was decided that data from the far-field microphones (or PZMs) should be tested on the recognizer as soon as possible. Speaker mn017 will compare close-talking microphone recognition results with those obtained for downsampled data. The SRI recognizer will be set up at ICSI to enable researchers to run their own variants.",
+            "meeting": "Bmr012",
+            "relevant_text_span": "[['290', '383']]"
+        },
+        {
+            "query": "What decision was reached about microphones nonuniformity?",
+            "answer": "To achieve greater uniformity in across-speaker recording conditions, the group decided to purchase three additional head-mounted microphones. ",
+            "meeting": "Bmr011",
+            "relevant_text_span": "[['119', '136']]"
+        }
+    ],
+    "74": [
+        {
+            "query": "Summarize the discussion on fixing the system",
+            "answer": "It was time for the team to rely on the models they had created so far to fix the system. They were deciding when to fix it. The professor explained that they should do so by Tuesday, and when they get new data later in the week, they need not train on it.",
+            "meeting": "Bro007",
+            "relevant_text_span": "[['209', '351']]"
+        },
+        {
+            "query": "Summarize the discussion about improvements on the baseline",
+            "answer": "The team had gotten a fifty percent improvement on the model. This was significant but left room for further work. They aimed to get a sixty percent improvement from the initial baseline .",
+            "meeting": "Bro017",
+            "relevant_text_span": "[['237', '330']]"
+        }
+    ],
+    "75": [
+        {
+            "query": "What did the Professor think about LPC?",
+            "answer": "The professor thought the LPC had two problems. It was adding degradation and there was an issue with pitch. The professor also expressed that the LPC was throwing away information that was useful.",
+            "meeting": "Bro028",
+            "relevant_text_span": "[['167', '221']]"
+        },
+        {
+            "query": "What did PhD D think about LPC?",
+            "answer": "PhD D expressed that the resynthesized version of the speech that LPC gave was not the same as speech. Though, the excitations were more clear in the resynthesized version.",
+            "meeting": "Bro028",
+            "relevant_text_span": "[['158', '178']]"
+        }
+    ],
+    "76": [
+        {
+            "query": "What was said about IBM? ",
+            "answer": "One meeting recording has been channelized and pre-segmented for delivery to IBM. A subset of Meeting Recorder data will be prepared (i.e. pre-segmented and manually adjusted) for delivery to IBM. ",
+            "meeting": "Bmr018",
+            "relevant_text_span": "[['158', '170']]"
+        },
+        {
+            "query": "What was said about IBM transcription?",
+            "answer": "IBM has a team of people employed to transcribe meeting data, and who are transcribing single versus multiple channels.",
+            "meeting": "Bmr011",
+            "relevant_text_span": "[['502', '525']]"
+        },
+        {
+            "query": "What pre-processing was needed for the IBM transcripts?",
+            "answer": "Before that, the files will be automatically pre-segmented into speech/non-speech bins and the beeps will be inserted. ",
+            "meeting": "Bmr020",
+            "relevant_text_span": "[['624', '631']]"
+        }
+    ],
+    "77": [
+        {
+            "query": "Summarize the discussion on patterns of noise in the recordings",
+            "answer": "The professor noted that a major component in one of the waves was the air conditioner. The team had to be more cognizant about these kind reverberations in the recordings. After a threshold, the reverberations interfered with the recordings. The team thought they could look at spectral slices to further understand the problem.",
+            "meeting": "Bro012",
+            "relevant_text_span": "[['2', '36']]"
+        },
+        {
+            "query": "Summarize the discussion about dealing with smaller features of recordings",
+            "answer": "The team discussed how sonorance detection could constitute a low-level feature that their models detected. In one of the models, low level detectors are looking for specific sonorance features which are more robust than typical full-band Gaussian mixtures.",
+            "meeting": "Bro010",
+            "relevant_text_span": "[['407', '434']]"
+        }
+    ],
+    "78": [
+        {
+            "query": "Summarize the discussion on Eurospeech and reverberation",
+            "answer": "Eurospeech was taking place in Denmark and the team was planning on submitting a paper to it. The team was also discussing how to best present the reverberation problem. The team thought that the spectral effects of the reverberation were very clear. They would have to figure out how to remove the sources of variance from the data to capture only the main voice.",
+            "meeting": "Bro012",
+            "relevant_text_span": "[['281', '436']]"
+        },
+        {
+            "query": "Summarize the discussion on the Eurospeech paper and on-line normalization",
+            "answer": "PhD C informed the team that the Eurospeech paper had been accepted and the conference would take place in Aalborg Denmark in September. The team was making progress on on-line normalization, taking two approaches.",
+            "meeting": "Bro021",
+            "relevant_text_span": "[['0', '27']]"
+        }
+    ],
+    "79": [
+        {
+            "query": "Summarize the discussion on histogram equalization",
+            "answer": "Guenter from Germany expressed that CVS would not work for him. He was going to work on histogram equalization. Histogram equalization was mentioned in a recent paper published by Ney. The team discussed the paper and its implications.",
+            "meeting": "Bro028",
+            "relevant_text_span": "[['422', '446']]"
+        },
+        {
+            "query": "What did PhD A think about histogram equalization?",
+            "answer": "PhD A wanted to know what exactly the technique did. PhD A inquired into how the histogram may represent energy levels and how histograms could speak to what can be done with the model.",
+            "meeting": "Bro028",
+            "relevant_text_span": "[['452', '478']]"
+        }
+    ],
+    "80": [
+        {
+            "query": "What problems and solutions were discussed about the recording data?",
+            "answer": "A small percentage of transcripts will be changed to reflect mis-read, uncorrected digits. A speaker database will be compiled to establish consistent links between speakers and their corresponding identification tags. ",
+            "meeting": "Bmr015",
+            "relevant_text_span": "[['55', '86']]"
+        },
+        {
+            "query": "What was the status of the recording data?",
+            "answer": "The first test set of digits is complete and includes 4,000 lines, each comprising between 1-10 digits. New digits forms were distributed for eliciting different prosodic groupings of numbers. New naming conventions were discussed as means for facilitating the sorting process. Existing files will be changed so that all filenames are of equal length. Similar changes will be made to speaker identification tags. Files will also contain information specifying channel, microphone, and broadcaster information.",
+            "meeting": "Bmr015",
+            "relevant_text_span": "[['55', '112']]"
+        },
+        {
+            "query": "What were some of the ideas proposed about future meeting recordings?",
+            "answer": "PhD F wanted the group to record different meetings with the same group to help in tasks such as summarization, the Professor D however, wanted random meeting participants to have diversity that would be instrumental in acoustical research.",
+            "meeting": "Bmr006",
+            "relevant_text_span": "[['38', '64']]"
+        }
+    ],
+    "81": [
+        {
+            "query": "Summarize what was said about the digits recordings",
+            "answer": "The group discussed the collection status for a set of connected digits recordings that are nearly complete and ready to be trained on a recognizer. Anticipated results were discussed in reference to results obtained for other digits corpora, i.e. Aurora and TI-digits.",
+            "meeting": "Bmr013",
+            "relevant_text_span": "[['24', '130']]"
+        },
+        {
+            "query": "Summarize the discussion about meeting recorder digits",
+            "answer": "The team was concerned that there was something wrong with the back-end of the model. The professor was insistent that the problem was probably with the lack of data. The team also speculated that their data was more challenging.",
+            "meeting": "Bro013",
+            "relevant_text_span": "[['0', '153']]"
+        }
+    ],
+    "82": [
+        {
+            "query": "What were the problems encountered with SmartKom system?",
+            "answer": "The translation of SmartKom to english is in its final stages. The synthesis module will be the last one to do, after the english syntax trees are completed. The system is still buggy and unstable, but it will soon be ready for a demonstration.",
+            "meeting": "Bed010",
+            "relevant_text_span": "[['5', '14']]"
+        },
+        {
+            "query": "What problems were reported due to SmartKom modules interaction?",
+            "answer": "As a functional module, the action planner is too restrictive for the tourist domain and requires complex slots from the dialogue manager. Interactions in a deep map system between the spatial planner and the route planner are too convoluted. SmartKom requires a fast and robust parser that includes language-specific extensions.",
+            "meeting": "Bed009",
+            "relevant_text_span": "[['102', '121']]"
+        }
+    ],
+    "83": [
+        {
+            "query": "What did the Professor think about controlling the size of the combinatorial input?",
+            "answer": "The professor was the one to raise the issue and suggested that a knowledge engineering trick could be used to narrow down inputs. He thought that perhaps adding deterministic rules to properties that have actions would be helpful and the property types could be retrieved from the ontology.",
+            "meeting": "Bed004",
+            "relevant_text_span": "[['187', '201'], ['227', '239']]"
+        },
+        {
+            "query": "What did Grad D think about managing the size of the combinatorial input?",
+            "answer": "Grad D thought that the best way would be to add restrictive action types that are attached to the kind of object. For instance, there are specific actions that would be relevant to a landmark.",
+            "meeting": "Bed004",
+            "relevant_text_span": "[['220', '224']]"
+        }
+    ],
+    "84": [
+        {
+            "query": "What did PhD C think about silence detection?",
+            "answer": "PhD C explained that there was no room left for silence detection because of the server side delay. They were working out a compromise between the handset delay and the server delay, but the delay was too large at the moment.",
+            "meeting": "Bro007",
+            "relevant_text_span": "[['74', '87']]"
+        },
+        {
+            "query": "What did the professor think about the silence detection problem?",
+            "answer": "The professor thought that the results in the experiment without silence detection were okay as well. He thought some sort of weighted measure between other features should result in good performance.",
+            "meeting": "Bro007",
+            "relevant_text_span": "[['90', '99']]"
+        },
+        {
+            "query": "What did the professor think about the difference between means of silence and speech?",
+            "answer": "The professor suggested delving deep into the different types of errors in the difference between silence and speech means. He thought that training and testing in the same kind of white noise would be an effective strategy. In his opinion, the differences were hurting the recognition, even though they were not too big.",
+            "meeting": "Bro021",
+            "relevant_text_span": "[['46', '94']]"
+        }
+    ],
+    "85": [
+        {
+            "query": "What did the professor think about support vector machines for speech recognition?",
+            "answer": "The professor recalled that people at Mississippi state were using support vector machines for speech recognition by estimating probabilities. The results were not significant, but they were reasonable.",
+            "meeting": "Bro018",
+            "relevant_text_span": "[['343', '359']]"
+        },
+        {
+            "query": "What did the professor think about speech rate algorithms?",
+            "answer": "The professor thought it mattered how fast someone was speaking since the model was getting a spectrum over different kinds of speech sounds. He was skeptical that changing speech rate was the solution, though he thought it was worth looking into. His solution was collecting more samplings of different phones for when people speak slower.",
+            "meeting": "Bro024",
+            "relevant_text_span": "[['65', '75']]"
+        }
+    ],
+    "86": [
+        {
+            "query": "What is the future for data collection?",
+            "answer": "As the data collection is going into its second phase, more complex scenarios will be used to generate more intricate dialogues. Subjects can be recruited from within the Psychology department students, since such participation in experiments is compulsory in their syllabus.",
+            "meeting": "Bed017",
+            "relevant_text_span": "[['25', '46']]"
+        },
+        {
+            "query": "What was the future of data collection?",
+            "answer": "The group aims to collect over 100 hours of Meeting Recorder data in total. Speaker consent forms are being revised. It was suggested that subjects should sign a new consent form after 10 recording sessions.",
+            "meeting": "Bmr005",
+            "relevant_text_span": "[['824', '880']]"
+        }
+    ],
+    "87": [
+        {
+            "query": "What did the professor think about the back-end?",
+            "answer": "The professor thought that they were constrained by the shortage of data in the backend. Bigger companies had massive amounts of data to train their models. He recalled that they had been playing with the states in the back-end, but the results had not been too fruitful.",
+            "meeting": "Bro013",
+            "relevant_text_span": "[['16', '56']]"
+        },
+        {
+            "query": "What did the Professor think about storing data?",
+            "answer": "The professor expressed that the team should not recycle backed up disk space and explained the rate at which they could acquire disks. He was surprised that burned CD's wear out after a year or two. He thought that putting the data on tape was a good idea.",
+            "meeting": "Bmr024",
+            "relevant_text_span": "[['506', '552'], ['656', '712']]"
+        }
+    ],
+    "88": [
+        {
+            "query": "What did the professor say about Guenter?",
+            "answer": "The professor explained that Guenter Hirsch had left Ericsson and that Ericsson may withdraw from Aurora altogether. For the past two to three years, he was happily employed at a technical college not too far from Aachen.",
+            "meeting": "Bro017",
+            "relevant_text_span": "[['277', '289']]"
+        },
+        {
+            "query": "What did the Professor say about the soldiers?",
+            "answer": "The professor told the group a story about soldiers assigned to watch out for spy planes. The plane showed up at four each day and the soldiers called it in. Once the pattern was clear, they stopped looking for it and spent time with the locals instead. One day, the plane did not come but the soldiers still reported it, so they got into trouble. The professor used the story to make a point about making an assumption and then seeing if it holds after changing something small.",
+            "meeting": "Bro017",
+            "relevant_text_span": "[['615', '640']]"
+        }
+    ],
+    "89": [
+        {
+            "query": "Summarize the discussion about voice-unvoice detection",
+            "answer": "The existing net for voice-unvoice had three outputs, voice, unvoice, and silence. It took fifteen features as inputs. The team discussed how energy measures could be incorporated to improve performance on this task. The nets took around a day to train, so the team could run more experiments. The current performance on the task was unsatisfactory.",
+            "meeting": "Bro018",
+            "relevant_text_span": "[['0', '188']]"
+        },
+        {
+            "query": "What did the professor think about improving voice-unvoice detection?",
+            "answer": "The professor explained that the task typically relied on R-one over R-zero as a measure. He thought that the team should explore the difference between the log FFT and the log magnitude FF spectrum and the filter bank. These were fundamentally different measures which could help the model.",
+            "meeting": "Bro018",
+            "relevant_text_span": "[['44', '89']]"
+        },
+        {
+            "query": "What did PhD D think about voice-unvoice detection?",
+            "answer": "PhD D explained that voice-unvoice net took fifteen base features and three features of R as inputs. The R features were the variance of the difference between the two spectrums, variance of the auto-correlation function, and the first coefficient of the auto-correlation function. This method, however, was not that much better than the more typical method that the professor recalled.",
+            "meeting": "Bro018",
+            "relevant_text_span": "[['23', '66']]"
+        },
+        {
+            "query": "What did the professor think about the voice-unvoice characterization?",
+            "answer": "The professor thought that the team should go back and look at the difference between the smooth and the raw versions. He thought the team was too stuck on intuitions based on only the smooth version. He agreed that not having a smooth version could hurt the model a bit, but the team could potentially learn something that helps the model more.",
+            "meeting": "Bro014",
+            "relevant_text_span": "[['458', '497']]"
+        },
+        {
+            "query": "Summarize the discussion about capturing the intention of subjects",
+            "answer": "The new system for collecting subject intention focused on allowing subjects to come up with the intent themselves. Instead of giving them a list of goals, the subjects would, with the help of an instructor, figure out what they want to do in the environment. The earlier interaction with the instructor would give them a sense of how specific their goals in the environment could be. Another idea was to use pictures for people to help determine their intention, but the manufacturing of pictures seemed to be a very intensive project.",
+            "meeting": "Bed006",
+            "relevant_text_span": "[['162', '261']]"
+        }
+    ],
+    "90": [
+        {
+            "query": "What did Grad H think about using XML tools?",
+            "answer": "Grad H brought up that they were standardizing the data in XML, though Grad H was not satisfied with the current data format. Grad H was also building tools to extract information from XML's in various languages, mainly Java and Perl.",
+            "meeting": "Bmr025",
+            "relevant_text_span": "[['262', '274']]"
+        },
+        {
+            "query": "What\u2019s the current status of transcription?",
+            "answer": "The transcriber pool has been performing within the expected range of work completed per the amount of time spent transcribing.",
+            "meeting": "Bmr011",
+            "relevant_text_span": "[['461', '473']]"
+        },
+        {
+            "query": "What did Grad D say about mixture of experts when discussing probability computation?",
+            "answer": "Grad D first said that different experts were reliable in different situations and it was necessary to organically combine them to make the network adapt to diverse situations. The network could be divided into several parts and the network would decide which of the experts would be trusted in this particular situation. Grad D then answered other group members' questions about the layout of mixture of expert models and their detailed computation process.",
+            "meeting": "Bed008",
+            "relevant_text_span": "[['727', '749']]"
+        },
+        {
+            "query": "What\u2019s the status of transcription?",
+            "answer": "The transcriber pool is making quick progress, and may be used in the future to perform other types of coding, e.g. a more detailed analysis of speaker overlap. Transcribers are coding non-speech gestures, such as audible breaths and laughter, both of which are useful for improving recognition results. ",
+            "meeting": "Bmr010",
+            "relevant_text_span": "[['205', '238']]"
+        },
+        {
+            "query": "What was said on the status of transcription?",
+            "answer": "Transcription checking procedures were reviewed, and efforts to coordinate the channelization and presegmention of data with the tightening of time bins were discussed.",
+            "meeting": "Bmr016",
+            "relevant_text_span": "[['688', '710']]"
+        }
+    ],
+    "91": [
+        {
+            "query": "Did PhD A and PhD C agree about the variance?",
+            "answer": "PhD A informed the team that the team was looking at the difference between the mel filter and FFT spectrum, which he called the variance. The variance for voice-unvoice was high. PhD C thought that the variance was kind of artificial because it was being done using canonical mappings from TIMIT labelings.",
+            "meeting": "Bro014",
+            "relevant_text_span": "[['404', '457']]"
+        },
+        {
+            "query": "What was the discussion with Jose?",
+            "answer": "Derivatives were not discussed with Jose  but other possibilities were explored. First that log energy is basically compressing the distances. Another is that he needs to assess the different temporal sizes . He is taking everything over two hundred milliseconds and varying that number. He is also considering  moving windows , as previously discussed. He is measuring at the frame level.",
+            "meeting": "Bmr009",
+            "relevant_text_span": "[['8', '49']]"
+        },
+        {
+            "query": "What problems were faced due to overlaps?",
+            "answer": "There is no channel identifier to help in encoding speaker overlaps. Speech uttered while laughing is problematic for ASR. So far, speaker mn005's attempts to detect speaker overlap have been unsuccessful, as it has not been possible to normalize energy as a reliable indicator of overlap.",
+            "meeting": "Bmr010",
+            "relevant_text_span": "[['303', '321']]"
+        },
+        {
+            "query": "What difficulties were faced?",
+            "answer": "The preparation of files for transcription by IBM is facing some minor difficulties, as some features (hand-coded time boundaries, multiplicity of channels etc) may complicate the generation of beep files.",
+            "meeting": "Bmr020",
+            "relevant_text_span": "[['711', '724']]"
+        }
+    ],
+    "92": [
+        {
+            "query": "What was suggested for the transcribers?",
+            "answer": "The group discussed the potential for assigning additional tasks to ICSI's transcriber pool, including tagging more fine-grained acoustic information, and discourse and disfluency tagging. ",
+            "meeting": "Bmr011",
+            "relevant_text_span": "[['847', '883']]"
+        },
+        {
+            "query": "What did Grade E think about sonorance?",
+            "answer": "Grad E started the discussion on sonorance and informed the team of the model by Saul, Allen, and Rahim. The model detects phonetic features using independent tests. He explained that several detectors trained on different features were more robust than a full-band of Gaussian mixtures.",
+            "meeting": "Bro010",
+            "relevant_text_span": "[['407', '436']]"
+        },
+        {
+            "query": "What solution was proposed for the transcribers?",
+            "answer": "Transcribers will be given channelized data that has been segmented for speech/non-speech boundaries to determine whether such pre-processing facilitates the transcription process.",
+            "meeting": "Bmr016",
+            "relevant_text_span": "[['1304', '1387']]"
+        },
+        {
+            "query": "What would help the transcribers?",
+            "answer": "In order to make things easier for the transcribers, breathy channels, which are erroneously marked as speech, will be re-classified correctly with other methods.",
+            "meeting": "Bmr020",
+            "relevant_text_span": "[['869', '883']]"
+        }
+    ],
+    "93": [
+        {
+            "query": "What did Grad G think about capturing the subject intention?",
+            "answer": "Grad G learned that the materials would be based on real materials about Heidelberg and that the instructor would allow subjects to get a feel for the system's capabilities. Grad G also learned that the interactions would be more natural.",
+            "meeting": "Bed006",
+            "relevant_text_span": "[['165', '220']]"
+        },
+        {
+            "query": "What did the professor think about MSG?",
+            "answer": "The professor generally liked MSG because of its different temporal properties. Nonetheless, he recognized that it might not be practical to explore it further due to time constraints. At this point, he thought that there were no clear solutions to the challenges they were facing, but there was still plenty to do.",
+            "meeting": "Bro005",
+            "relevant_text_span": "[['623', '631']]"
+        },
+        {
+            "query": "What did the professor think about pronouncing zero?",
+            "answer": "The professor pointed out that zero is said in two ways, \"O\" and \"Zero.\" So, when recording digits, people are told which way to pronounce it.",
+            "meeting": "Bro013",
+            "relevant_text_span": "[['351', '375']]"
+        },
+        {
+            "query": "What did the Professor think about hiring Fey?",
+            "answer": "The Professor was very supportive of the idea of hiring Fey. He thought that it would be helpful since she was also willing to take over the task of organizing subjects. In addition, he believed the project would provide her with a valuable learning experience for her own upcoming graduate school work in experimental paradigms.",
+            "meeting": "Bed004",
+            "relevant_text_span": "[['95', '115']]"
+        }
+    ],
+    "94": [
+        {
+            "query": "What did the professor think about latencies?",
+            "answer": "The professor thought that the model was better now since it had lower latencies. So, he thought that the good VAD was worth the trouble.",
+            "meeting": "Bro014",
+            "relevant_text_span": "[['365', '377']]"
+        },
+        {
+            "query": "What did the professor think about VAD latency?",
+            "answer": "The professor wanted to know how much latency the VAD was adding to the model. The professor thought that the process could work in parallel. The professor informed the team that the max latency was unknown.",
+            "meeting": "Bro027",
+            "relevant_text_span": "[['251', '346']]"
+        },
+        {
+            "query": "What did PhD C say about the breakdown of the latency?",
+            "answer": "PhD C explained that the silence probabilities had a 100ms delay, the delta at the input had a 40ms delay, and a 10ms delay was created by LDA filters.",
+            "meeting": "Bro027",
+            "relevant_text_span": "[['262', '294']]"
+        },
+        {
+            "query": "What did the professor think about the latency?",
+            "answer": "The professor said that people adamantly insist on going in with a brain damaged system, overlooking straight forward solutions. He thought that the lag should not be too long for the task.",
+            "meeting": "Bro010",
+            "relevant_text_span": "[['106', '112']]"
+        }
+    ],
+    "95": [
+        {
+            "query": "Summarize the discussion on detecting important linguistic features",
+            "answer": "The team wanted to understand how they could combine different linguistic features to make a more robust recognition model. They were running experiments to figure out what the good features were. The team also entertained the possibility of clustering them, which would add to the robustness.",
+            "meeting": "Bro011",
+            "relevant_text_span": "[['147', '226']]"
+        },
+        {
+            "query": "Summarize the discussion on looking at feature streams",
+            "answer": "The team used OGI features that then passed through a contextualized KLT, an MLP, and a low-pass filter. The highly mismatched Italian part was still not working well. The team tried using silence detection to improve performance, but the results were not too promising.",
+            "meeting": "Bro007",
+            "relevant_text_span": "[['0', '107']]"
+        },
+        {
+            "query": "What was the advantage of using Noisy-ORs?",
+            "answer": "The actual number of the inputs in the Bayes-net can create a combinatorial explosion when setting the probabilities. Noisy-OR's can help avoid this by simplifying the probability tables and applying a deterministic function to produce their complete version.",
+            "meeting": "Bed005",
+            "relevant_text_span": "[['502', '517']]"
+        },
+        {
+            "query": "What was included in the transcription formalization?",
+            "answer": "Transcription checking procedures have been formalized, including a spell check, producing an exhaustive list of forms identified in the data, attributing every utterance to the appropriate speaker ID, glossing spoken forms with their full orthographic counterparts, e.g. 'cuz' and 'because', transcribing acronyms, and encoding comments, i.e. glosses, vocalic and non-vocalic non-speech events, pragmatic cues, and the standardization of spoken forms, e.g. 'mm-hmm'.",
+            "meeting": "Bmr016",
+            "relevant_text_span": "[['725', '812']]"
+        }
+    ],
+    "96": [
+        {
+            "query": "What did the team think about sending an email to ask for changes?",
+            "answer": "The team thought that people would not respond to their emails, which would be compounded by them being out of town over the summer. Based on knowledge about similar data collection, they thought that emails should be enough, but skepticism about getting consent with emails prevailed.",
+            "meeting": "Bmr027",
+            "relevant_text_span": "[['163', '514']]"
+        },
+        {
+            "query": "What did the team think about a single KLT?",
+            "answer": "PhD C thought that it would be worthwhile to test on a single KLT. The professor agreed that since it would be pretty low-maintenance, the team should do that, but only if they can fit it in.",
+            "meeting": "Bro007",
+            "relevant_text_span": "[['326', '343']]"
+        },
+        {
+            "query": "What did the group think about Dave leaving?",
+            "answer": "The group needed Dave Johnson to install the some one hundred SUN - Blades that had arrived and would help with storage. But Dave Johnson, the professor informed them, was leaving for ten days. The Professor informed the group that Dave was always busy and the group realized that there was no dedicated person who could help them.",
+            "meeting": "Bmr026",
+            "relevant_text_span": "[['204', '237'], ['362', '393']]"
+        },
+        {
+            "query": "What did the team discuss about insertion penalties?",
+            "answer": "The Aurora staff was tinkering around with various parameters, like the insertion penalty. The professor expressed interest in knowing what the exact penalties were to make decision about the team's models.",
+            "meeting": "Bro026",
+            "relevant_text_span": "[['348', '358']]"
+        },
+        {
+            "query": "What did PhD C think about the baseline?",
+            "answer": "PhD C thought the team was not far from fifty percent over the new baseline, which equated to sixty percent over the old baseline. Their model was around fifty to fifty five over the old baseline at the time. Though, the number would depend on the exact weightings.",
+            "meeting": "Bro017",
+            "relevant_text_span": "[['303', '315']]"
+        }
+    ],
+    "97": [
+        {
+            "query": "What did the team discuss about LDA filters?",
+            "answer": "Grad C thought that one way to improve performance might be training LDA filters in different conditions. The professor D agreed that the LDA filter was interesting. He thought hamming would work too. Professor G said that most people just do on-line filtering, which entailed subtracting the mean, not LDA.",
+            "meeting": "Bro024",
+            "relevant_text_span": "[['80', '93']]"
+        },
+        {
+            "query": "Summarize the discussion on diversity in speech data",
+            "answer": "The team thought it would be worthwhile to get different sorts of meeting data. Meetings will vary in mic placement, speaker sound overlap, and style. Even the dominance relationships in the meetings would cause variance in the data. Some members also wanted to gather TV and radio data.",
+            "meeting": "Buw001",
+            "relevant_text_span": "[['1326', '1449']]"
+        },
+        {
+            "query": "What are the key features of the intermediate nodes?",
+            "answer": "A detailed diagram of the EVA belief-net was presented and some of the intermediate nodes and their properties were discussed in depth. Some of the key features and properties are: \"Go-there\", which is binary, and defined by the user, situation, ontology and discourse models; \"timing\" (current/next tour); \"reason\" (business, sight-seeing, socialising); \"transport\"; \"length of tour\"; \"costs\"; \"entity\" (open, accessible) etc.",
+            "meeting": "Bed011",
+            "relevant_text_span": "[['290', '350']]"
+        },
+        {
+            "query": "What was the next step on features?",
+            "answer": "The next stage is to refine the set of feature nodes and identify possible clusters. Although, in theory, traditional AI plan recognition techniques could also be helpful for inferring intentions, the schemas involved are too elaborate for this task. ",
+            "meeting": "Bed003",
+            "relevant_text_span": "[['778', '820']]"
+        }
+    ],
+    "98": [
+        {
+            "query": "What did the team think about the length of silence before declaring an utterance?",
+            "answer": "The team thought that around 250 milliseconds was a good heuristic to detect the end of the utterance. The utterance recognition also had some processing time attached, increasing the delay.",
+            "meeting": "Bro010",
+            "relevant_text_span": "[['115', '137']]"
+        },
+        {
+            "query": "What did the professor think about detecting smaller units of sound?",
+            "answer": "The professor told the group that the current neural network had a sigmoid with a weighted sum as a low level detector. It trained using gradient descent. He suggested they delve into this further on Friday.",
+            "meeting": "Bro010",
+            "relevant_text_span": "[['410', '445']]"
+        },
+        {
+            "query": "What did Speaker C say about detecting speech/non-speech options?",
+            "answer": "Speaker C\u2019s efforts to detect speech/non-speech portions in the mixed signal (using an HMM-based detector with Gaussian mixtures) have produced pre-segmentations that facilitate the transcription effort.",
+            "meeting": "Bmr010",
+            "relevant_text_span": "[['74', '98']]"
+        },
+        {
+            "query": "What was said of the \"where is X\" construction?",
+            "answer": "Additionally, in the example \"Where is X?\" construction, the ambiguity (Location or Path) could be coded either in the semantics of the construction or as if determined by context. The former could mean creating a different construction for every slight pragmatic variation, and the latter, some of the belief-net probabilities could be instantiated in the lexicon. ",
+            "meeting": "Bed014",
+            "relevant_text_span": "[['146', '189']]"
+        }
+    ]
+}
